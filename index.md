@@ -10,7 +10,7 @@ title: Home
 - **GitHub:**     `https://github.com/Isaac-Ken`
 
 ## **Proving_Grounds_Writeups:~#**
-- **Mar 04, 2022:** [ProvingGrounds -- WPWN 5](https://isaac-ken.github.io/posts/ProvingGrounds/WPN.html) `WordPress,` `Plugin,`
+- **Mar 04, 2022:** [ProvingGrounds -- WPWN 5](https://isaac-ken.github.io/posts/ProvingGrounds/WPN.html) `WordPress,` `Plugin`
 
 ## **VulnHubs_Writeups:~#**
 
