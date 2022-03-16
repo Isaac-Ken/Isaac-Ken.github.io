@@ -1,1 +1,10 @@
+title: root@blog:~#
+show_downloads: false
+show_repo: false
 theme: jekyll-theme-midnight
+
+gems:
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
