@@ -58,7 +58,7 @@ local.txt
 
 **Root Escalation**
 ---  
-**Root Flag**
-[sudo su]  
+**Root Flag**  
+[sudo su]    
 ![image2](https://user-images.githubusercontent.com/66635295/158754479-c0661600-777c-40ca-bd02-90885402a584.png)
 
