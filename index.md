@@ -7,7 +7,7 @@ title: Home
 
 **"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
 
-## **Proving_Grounds_Writeups:**
+## **ProvingGrounds_Writeups:**
 - **Mar 04, 2022:** [WPWN](https://isaac-ken.github.io/posts/ProvingGrounds/WPWN.html) `WordPress,` `Plugin`
 
 ## **VulnHub_Writeups:**
