@@ -21,8 +21,7 @@ Port 22, and 80 are open
 **Scan reveals outdated plugin named Social-Warfare 3.5.2**  
 This Vulnerability allows commands to run for obtaining user Credentials  
 ![image15](https://user-images.githubusercontent.com/66635295/158748468-74c92d41-881e-4414-9070-43a2bb30d4f1.png)  
-**Payload File**  
-[<<pre>system(‘cat /etc/passwd’)</pre>>]  
+**Payload File**    
 Shows passwd file contents  
 ![image5](https://user-images.githubusercontent.com/66635295/158751852-ada62fb4-56f6-4e2f-ae20-68cd67dd5b81.png)
 
