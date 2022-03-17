@@ -49,7 +49,7 @@ Viewing the source reveals a password for a SQL database
 ---
 **Server SSH**  
 [sudo ssh takis@192.168.55.123]  
-![image4](https://user-images.githubusercontent.com/66635295/158753672-415311f6-028b-4345-8a98-cfcf7a3a7ed9.png)
+![image4](https://user-images.githubusercontent.com/66635295/158753672-415311f6-028b-4345-8a98-cfcf7a3a7ed9.png)  
 **User Flag**      
 local.txt  
 ![image13](https://user-images.githubusercontent.com/66635295/158753764-e78a55f8-f9fa-4179-8dc4-fe9691bcf19c.png)     
