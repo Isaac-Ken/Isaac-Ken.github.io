@@ -47,14 +47,14 @@ Viewing the source reveals a password for a SQL database
 
 **Privilege Escalation**
 ---
-**Server SSH**
+**Server SSH**  
 [sudo ssh takis@192.168.55.123]  
 ![image4](https://user-images.githubusercontent.com/66635295/158753672-415311f6-028b-4345-8a98-cfcf7a3a7ed9.png)
-**User Flag**    
+**User Flag**      
 local.txt  
-![image13](https://user-images.githubusercontent.com/66635295/158753764-e78a55f8-f9fa-4179-8dc4-fe9691bcf19c.png)   
-**Check User Privileges**  
+![image13](https://user-images.githubusercontent.com/66635295/158753764-e78a55f8-f9fa-4179-8dc4-fe9691bcf19c.png)     
+**Check User Privileges**    
 ![image12](https://user-images.githubusercontent.com/66635295/158753967-f2d267fc-93d9-442f-94c4-b7463bf2db7c.png)  
 **Root Flag**  
-![image10](https://user-images.githubusercontent.com/66635295/158754242-21d85cde-d062-443b-907e-0898f5b8d45d.png)
+![image2](https://user-images.githubusercontent.com/66635295/158754479-c0661600-777c-40ca-bd02-90885402a584.png)
 
