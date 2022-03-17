@@ -26,7 +26,7 @@ COMING SOON!!
 
 
 ## [Tools:~#](https://isaac-ken.github.io/posts/Tools/)
-^Feel Free To Check Them Out^
+^  :shipit:
 
 
 
