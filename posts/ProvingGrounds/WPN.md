@@ -12,6 +12,7 @@ Our IP leads us to this blank page lets move to scanning
 -version -safescan
 
 Port 22, and 80 are open
+
 ![image3](https://user-images.githubusercontent.com/66635295/158744691-d688bd5d-81d7-4af4-b510-a2e1b527177f.png)
 
 
