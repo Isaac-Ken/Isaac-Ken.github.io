@@ -10,7 +10,7 @@ title: Home
 ## **Proving_Grounds_Writeups:**
 - **Mar 04, 2022:** [WPWN](https://isaac-ken.github.io/posts/ProvingGrounds/WPWN.html) `WordPress,` `Plugin`
 
-## **VulnHubs_Writeups:**
+## **VulnHub_Writeups:**
 
 COMING SOON!!
 
