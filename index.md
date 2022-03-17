@@ -5,8 +5,6 @@ title: Home
 
 ## **Welcome To My Blog**
 
-- **My Name:**    `Isaac Ken`
-- **What Do I Do:**  `Pen-Testing `
 
 ## **Proving_Grounds_Writeups:~#**
 - **Mar 04, 2022:** [ProvingGrounds -- WPWN 5](https://isaac-ken.github.io/posts/ProvingGrounds/WPN.html) `WordPress,` `Plugin`
@@ -25,6 +23,10 @@ COMING SOON!!
 
 COMING SOON!!
 
+
+## **Tools:~#**
+
+COMING SOON!!
 
 
 
