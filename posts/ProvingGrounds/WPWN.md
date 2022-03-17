@@ -55,6 +55,7 @@ local.txt
 ![image13](https://user-images.githubusercontent.com/66635295/158753764-e78a55f8-f9fa-4179-8dc4-fe9691bcf19c.png)     
 **Check User Privileges**    
 ![image12](https://user-images.githubusercontent.com/66635295/158753967-f2d267fc-93d9-442f-94c4-b7463bf2db7c.png)    
+
 **Root Escalation**
 ---  
 **Root Flag**
