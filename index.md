@@ -5,7 +5,7 @@ title: Home
 
 ## **Welcome To My Blog**
 
-- **"I will not stop my blog" -John McAfee**
+**"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
 
 ## **Proving_Grounds_Writeups:~#**
 - **Mar 04, 2022:** [ProvingGrounds -- WPWN 5](https://isaac-ken.github.io/posts/ProvingGrounds/WPN.html) `WordPress,` `Plugin`
