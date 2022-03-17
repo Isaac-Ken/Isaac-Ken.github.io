@@ -4,7 +4,7 @@ title: Home
 ---
 
 ## **Welcome To My Blog**
-
+-**Check out some of my write ups**
 
 ## **Proving_Grounds_Writeups:~#**
 - **Mar 04, 2022:** [ProvingGrounds -- WPWN 5](https://isaac-ken.github.io/posts/ProvingGrounds/WPN.html) `WordPress,` `Plugin`
