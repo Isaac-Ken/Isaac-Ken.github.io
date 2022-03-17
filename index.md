@@ -25,7 +25,7 @@ COMING SOON!!
 COMING SOON!!
 
 
-## [Tools:~](https://isaac-ken.github.io/posts/Tools/)
+## [Tools:~#](https://isaac-ken.github.io/posts/Tools/)
 
 COMING SOON!!
 
