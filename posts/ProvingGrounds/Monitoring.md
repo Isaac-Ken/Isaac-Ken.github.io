@@ -16,6 +16,18 @@ Investigating the IP shows Nagios XI
 -safe scripts -service version -OS /version detection  
 ![image3](https://user-images.githubusercontent.com/66635295/158923500-63ccf817-750b-4cc0-b922-5fec2ac9aed3.png)
 
+**Exploit Search**
+<pre>msfconsole </pre>   
+<pre>search nagios </pre>   
+![image7](https://user-images.githubusercontent.com/66635295/158925208-7aaf44af-6018-45f6-9136-02605a2546df.png)
+
+**Service Version**
+Provided Exploits Did not work howeve rreavel the service version   
+![image6](https://user-images.githubusercontent.com/66635295/158925523-9ec073a8-fad8-47e2-a719-fd456de16bdd.png)  
+**Google-Fu**
+<pre>Nagios XI Remote Code Executio</pre> 
+Exploit allows for root access prior to 5.6.6  
+![image11](https://user-images.githubusercontent.com/66635295/158925803-ec6d2456-8095-4b7c-9e4b-b1cbced68f63.png)
 
 
 
