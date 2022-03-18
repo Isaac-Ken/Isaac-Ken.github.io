@@ -34,7 +34,7 @@ Samba Version 2.2.1
 
 **Make executable copy**  
 <pre>gcc 10.c -o 10</pre>  
-GNU compiler outposts copy executable to file named 10)  
+GNU compiler outposts copy executable to file 10  
 ![image8](https://user-images.githubusercontent.com/66635295/158943348-a0ebcee3-3ce7-46bc-8aec-8a99eecff320.png)  
 
 
