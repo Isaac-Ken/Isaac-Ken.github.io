@@ -36,8 +36,8 @@ Exploit allows for root access prior to 5.6.6
 Reveales it had been moved  
 ![image8](https://user-images.githubusercontent.com/66635295/158925989-31db1f9c-15ac-4db7-91c5-ec38690de593.png)
 
-**Set Options and run**
-Provides Meterpreter Shell  
+**Set Options and Run**  
+Provides Meterpreter Shell    
 ![image5](https://user-images.githubusercontent.com/66635295/158926369-64c23ac5-0917-40e2-949a-1d92f7646f11.png)
 
 **Privilege/Root Escalation**
