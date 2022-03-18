@@ -22,7 +22,7 @@ Investigating the IP shows Nagios XI
 ![image7](https://user-images.githubusercontent.com/66635295/158925208-7aaf44af-6018-45f6-9136-02605a2546df.png)
 
 **Service Version**  
-Provided Exploits Did not work however reavel the service version   
+Provided Exploits did not work but reavel the service version   
 ![image6](https://user-images.githubusercontent.com/66635295/158925523-9ec073a8-fad8-47e2-a719-fd456de16bdd.png)  
 **Google-Fu**
 <pre>Nagios XI Remote Code Execution</pre> 
