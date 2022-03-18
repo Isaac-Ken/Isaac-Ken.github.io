@@ -23,7 +23,8 @@ Investigating the IP shows Nagios XI
 
 **Service Version**  
 Provided Exploits did not work but reavel the service version   
-![image6](https://user-images.githubusercontent.com/66635295/158925523-9ec073a8-fad8-47e2-a719-fd456de16bdd.png)  
+![image6](https://user-images.githubusercontent.com/66635295/158925523-9ec073a8-fad8-47e2-a719-fd456de16bdd.png)    
+
 **Google-Fu**
 <pre>Nagios XI Remote Code Execution</pre>
 Exploit allows for root access prior to 5.6.6 
