@@ -10,8 +10,8 @@
 
 **Nmap Scan**  
 <pre>namp -sC -sV -A 192.168.57.5</pre>    
--safescan -version -OS detection   
-Port 139 running Samba 
+-safescan -version -OS detection     
+Port 139 running Samba   
 ![image6](https://user-images.githubusercontent.com/66635295/158940906-7b990432-a866-4a7c-90a4-832f86c0dafa.png)
 
 
