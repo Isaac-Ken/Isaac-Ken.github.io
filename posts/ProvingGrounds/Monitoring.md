@@ -25,15 +25,16 @@ Investigating the IP shows Nagios XI
 Provided Exploits Did not work howeve rreavel the service version   
 ![image6](https://user-images.githubusercontent.com/66635295/158925523-9ec073a8-fad8-47e2-a719-fd456de16bdd.png)  
 **Google-Fu**
-<pre>Nagios XI Remote Code Executio</pre> 
+<pre>Nagios XI Remote Code Execution</pre> 
 Exploit allows for root access prior to 5.6.6  
 ![image11](https://user-images.githubusercontent.com/66635295/158925803-ec6d2456-8095-4b7c-9e4b-b1cbced68f63.png)
 
-
-
-
 **ENUMURATION**
 ---
+**Exploit**
+<pre>use exploit /linux/http/nagios_xi_autheticated_rce</pre>
+Reveales it had been moved  
+![image8](https://user-images.githubusercontent.com/66635295/158925989-31db1f9c-15ac-4db7-91c5-ec38690de593.png)
 
 
 **Privilege Escalation**
