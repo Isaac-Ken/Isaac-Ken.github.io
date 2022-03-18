@@ -21,8 +21,8 @@ Investigating the IP shows Nagios XI
 <pre>search nagios </pre>   
 ![image7](https://user-images.githubusercontent.com/66635295/158925208-7aaf44af-6018-45f6-9136-02605a2546df.png)
 
-**Service Version**
-Provided Exploits Did not work howeve rreavel the service version   
+**Service Version**  
+Provided Exploits Did not work however reavel the service version   
 ![image6](https://user-images.githubusercontent.com/66635295/158925523-9ec073a8-fad8-47e2-a719-fd456de16bdd.png)  
 **Google-Fu**
 <pre>Nagios XI Remote Code Execution</pre> 
@@ -45,7 +45,7 @@ Provides Meterpreter Shell
 **Switch to TTY Shell**
 <pre>shell</pre>  
 <pre>python -c ‘import pty;pty.spawn(“/bin/bash”)’</pre>  
-![image10](https://user-images.githubusercontent.com/66635295/158926563-d75b3cd4-d4fe-431b-98f2-dc7574b39e2e.png)
+![image10](https://user-images.githubusercontent.com/66635295/158926563-d75b3cd4-d4fe-431b-98f2-dc7574b39e2e.png)  
 **Root Flag**  
 <pre>cd /root</pre>  
 ![image2](https://user-images.githubusercontent.com/66635295/158926788-e02ea43c-383f-4516-8506-dfced0d5e020.png)
