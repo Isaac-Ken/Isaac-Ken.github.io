@@ -36,14 +36,17 @@ Exploit allows for root access prior to 5.6.6
 Reveales it had been moved  
 ![image8](https://user-images.githubusercontent.com/66635295/158925989-31db1f9c-15ac-4db7-91c5-ec38690de593.png)
 
+**Set Options and run**
+Provides Meterpreter Shell  
+![image5](https://user-images.githubusercontent.com/66635295/158926369-64c23ac5-0917-40e2-949a-1d92f7646f11.png)
 
-**Privilege Escalation**
+**Privilege/Root Escalation**
 ---
-  
-**User Flag**      
-  
-
-**Root Escalation**
----  
+**Switch to TTY Shell**
+<pre>shell</pre>  
+<pre>python -c ‘import pty;pty.spawn(“/bin/bash”)’</pre>  
+![image10](https://user-images.githubusercontent.com/66635295/158926563-d75b3cd4-d4fe-431b-98f2-dc7574b39e2e.png)
 **Root Flag**  
- 
+<pre>cd /root</pre>  
+![image2](https://user-images.githubusercontent.com/66635295/158926788-e02ea43c-383f-4516-8506-dfced0d5e020.png)
+
