@@ -13,7 +13,7 @@ Investigating the IP shows Nagios XI
 
 **Nmap Scan**  
 <pre>nmap -sC -sV -A 192.168.54.136 </pre>  
--safe scripts -service version -OS /version detection
+-safe scripts -service version -OS /version detection  
 ![image3](https://user-images.githubusercontent.com/66635295/158923500-63ccf817-750b-4cc0-b922-5fec2ac9aed3.png)
 
 
