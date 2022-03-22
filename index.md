@@ -7,7 +7,10 @@ title: Home
 
 **"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
 
-## **ProvingGrounds_Writeups:**
+## **ProvingGrounds_Writeups:**  
+
+- **Mar 09, 2022:** [FunBox Rookie](https://isaac-ken.github.io/posts/ProvingGrounds/WPWN.html) `FTP,` `John the Ripper,` `SSH`
+
 - **Mar 04, 2022:** [Monitoring](https://isaac-ken.github.io/posts/ProvingGrounds/Monitoring.html) `Nagios XI,` `Remote Code Execution`
 
 - **Mar 03, 2022:** [WPWN](https://isaac-ken.github.io/posts/ProvingGrounds/WPWN.html) `WordPress,` `Plugin`
