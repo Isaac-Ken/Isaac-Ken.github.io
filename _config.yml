@@ -1,7 +1,7 @@
 title: root@blog:~#
 show_downloads: false
 show_repo: false
-remote_theme: luxedo/jekyll-theme-potato-hacker
+remote_theme: tareqdandachi/jekyll-theme-shell-theme 
 plugins:
   - jekyll-relative-links
 relative_links:
