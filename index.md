@@ -9,7 +9,7 @@ title: Home
 
 ## **ProvingGrounds_Writeups:**  
 
-- **Mar 09, 2022:** [FunBox Rookie](https://isaac-ken.github.io/posts/ProvingGrounds/WPWN.html) `FTP,` `John the Ripper,` `SSH`
+- **Mar 09, 2022:** [FunBox Rookie](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Rookie.html) `FTP,` `John the Ripper,` `SSH`
 
 - **Mar 04, 2022:** [Monitoring](https://isaac-ken.github.io/posts/ProvingGrounds/Monitoring.html) `Nagios XI,` `Remote Code Execution`
 
