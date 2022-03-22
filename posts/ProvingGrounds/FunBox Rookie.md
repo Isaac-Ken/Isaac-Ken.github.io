@@ -25,7 +25,7 @@ Anonymous FTP Login available, various visible zip files
 Password locked id_rsa keys
 ![image18](https://user-images.githubusercontent.com/66635295/159422579-2c509021-3e9f-4e53-9e29-198100978dda.png)
 **Change zip to Crack Passwords**
-<pre> zip2john homer.zip homer.hash </pre>
+ 'zip2john homer.zip homer.hash'
 ![image17](https://user-images.githubusercontent.com/66635295/159422865-d16a8a8c-a474-4ff5-aa2a-568b52fd8a9b.png)
 **Insall word list**
 <pre> rockyou.txt </pre>
