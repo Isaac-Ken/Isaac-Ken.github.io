@@ -1,7 +1,7 @@
 title: root@blog:~#
 show_downloads: false
 show_repo: false
-theme: jekyll-theme-hacker
+remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-relative-links
 relative_links:
