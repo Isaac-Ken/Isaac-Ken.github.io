@@ -8,6 +8,7 @@ title: Home
 **"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
 
 ## **ProvingGrounds_Writeups:**  
+- **Mar 014, 2022:** [FunBox Easy](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Easy.html) `Reverse Shell,` `Dirb,` `SSH`
 
 - **Mar 09, 2022:** [FunBox Rookie](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Rookie.html) `FTP,` `John the Ripper,` `SSH`
 
