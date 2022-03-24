@@ -57,19 +57,31 @@ Opening the php lands a reverse shell
 <pre> cat password.txt  </pre>
 ![image15](https://user-images.githubusercontent.com/66635295/159839741-f6fd75c7-e088-475c-9034-6354deebf38a.png)
 
+**SSH tony**
+<pre> ssh tony@192.168.54.111  </pre>
+<pre> Password: yxcvbnmYYY  </pre>
+<pre> sudo -l  </pre>
+pkexec, time and mtr can help us escalate to root  
+![image12](https://user-images.githubusercontent.com/66635295/159840097-6bcb2a30-ad2a-44b2-96ec-154b1eda8dae.png)  
 
-<pre>   </pre>
-<pre>   </pre>
-<pre>   </pre>
 
-<pre>   </pre>
-<pre>   </pre>
-<pre>   </pre>
-<pre>   </pre>
+
+
   
 
 **Root Escalation**
 ---  
-**Root Flag**  
- 
+**Bin Bash**  
+<pre> sudo time /bin/bash  </pre>
+![image5](https://user-images.githubusercontent.com/66635295/159840202-12eb4fec-fe85-491a-a72e-96897d2a1803.png)  
+
+**Root Flag*
+<pre>  cd root </pre>  
+![image8](https://user-images.githubusercontent.com/66635295/159840265-0726a908-2003-4b69-b586-bfaff7585fec.png)  
+
+
+**Local Flag**
+<pre> cd var  </pre>
+<pre> cd www  </pre> 
+![image17](https://user-images.githubusercontent.com/66635295/159840340-8757eee2-6bf0-42d7-8f5f-9daf42ff61d5.png)
 
