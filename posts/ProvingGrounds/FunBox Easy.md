@@ -34,12 +34,38 @@ Uploading reverse PHP Shell in images
 **Shell Exploit**  
 Pentest Monkey Reverse PHP    
 ![image1](https://user-images.githubusercontent.com/66635295/159838982-54625cd5-df41-4deb-bbf4-c9bd33f1dccd.png)
+**Configure the Shell**  
+Open up a Netcat listener   
+<pre>nc -lvp 8000   </pre>  
+![image16](https://user-images.githubusercontent.com/66635295/159839332-0c9c90df-00e4-41ff-ad32-1d4a327d6d0a.png)
 
+**Find shell**  
+Running drib on the store page it appears to be using bootstrap. Check the img directory  
+![image3](https://user-images.githubusercontent.com/66635295/159839387-0001fc05-c997-4bd5-ba0d-2f49d0503191.png)  
+**Image Index**  
+![image4](https://user-images.githubusercontent.com/66635295/159839421-2c411dff-652c-4ade-9399-bea19d0175dc.png)
 
 **Privilege Escalation**
 ---
-  
-**User Flag**      
+**Reverse Shell**
+Opening the php lands a reverse shell
+![image6](https://user-images.githubusercontent.com/66635295/159839585-994be4ad-5c91-44d4-8e65-a76a9c628445.png)
+
+**User Passwords**
+<pre> cd home  </pre>
+<pre> cd tony  </pre>
+<pre> cat password.txt  </pre>
+![image15](https://user-images.githubusercontent.com/66635295/159839741-f6fd75c7-e088-475c-9034-6354deebf38a.png)
+
+
+<pre>   </pre>
+<pre>   </pre>
+<pre>   </pre>
+
+<pre>   </pre>
+<pre>   </pre>
+<pre>   </pre>
+<pre>   </pre>
   
 
 **Root Escalation**
