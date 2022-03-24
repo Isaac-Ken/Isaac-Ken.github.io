@@ -28,11 +28,11 @@ Accepts basic admin credentials
 Notice the image files  
 ![image7](https://user-images.githubusercontent.com/66635295/159838890-53cb1c83-daee-45fa-8b3f-7c5078b99618.png)
 
-**Create New Book**
-Uploading reverse PHP Shell in images  
+**Create New Book**  
+Uploading reverse PHP Shell in images    
 ![image2](https://user-images.githubusercontent.com/66635295/159838930-bbbd34b1-a8e8-40ce-a369-be8aa9ba5125.png)
-**Shell Exploit**
-Pentest Monkey Reverse PHP  
+**Shell Exploit**  
+Pentest Monkey Reverse PHP    
 ![image1](https://user-images.githubusercontent.com/66635295/159838982-54625cd5-df41-4deb-bbf4-c9bd33f1dccd.png)
 
 
