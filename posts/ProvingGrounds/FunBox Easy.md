@@ -13,8 +13,8 @@ Apache Server
 ![image11](https://user-images.githubusercontent.com/66635295/159646241-09d9fc6b-3b51-44a0-940a-10d757d6cac2.png)  
 **Dirb**
 <pre> dirb http:// 192.168.54.111 </pre>
-![image9](https://user-images.githubusercontent.com/66635295/159838630-52b57a84-a48a-432c-99a4-82ddb3220bbf.png)
-![image13](https://user-images.githubusercontent.com/66635295/159838668-7011e6b1-ca86-4cff-a242-8c0044220ef0.png)
+![image9](https://user-images.githubusercontent.com/66635295/159838630-52b57a84-a48a-432c-99a4-82ddb3220bbf.png)  
+![image13](https://user-images.githubusercontent.com/66635295/159838668-7011e6b1-ca86-4cff-a242-8c0044220ef0.png)  
 
 
 **ENUMURATION**
