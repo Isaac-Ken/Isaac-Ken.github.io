@@ -75,7 +75,7 @@ pkexec, time and mtr can help us escalate to root
 <pre> sudo time /bin/bash  </pre>
 ![image5](https://user-images.githubusercontent.com/66635295/159840202-12eb4fec-fe85-491a-a72e-96897d2a1803.png)  
 
-**Root Flag*
+**Root Flag**
 <pre>  cd root </pre>  
 ![image8](https://user-images.githubusercontent.com/66635295/159840265-0726a908-2003-4b69-b586-bfaff7585fec.png)  
 
