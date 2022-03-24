@@ -24,7 +24,7 @@ Apache Server
 <pre> Pass: admin </pre>  
 Accepts basic admin credentials   
 ![image10](https://user-images.githubusercontent.com/66635295/159838808-74b66b91-a7dc-491c-acf8-4bc0cb6aa74a.png)  
-**Add New Book**
+**Add New Book**  
 Notice the image files  
 ![image7](https://user-images.githubusercontent.com/66635295/159838890-53cb1c83-daee-45fa-8b3f-7c5078b99618.png)
 
