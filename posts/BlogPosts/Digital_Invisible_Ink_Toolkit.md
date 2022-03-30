@@ -45,8 +45,8 @@ Changing the .txt to a .jpg reveals a new image
 Looks like our new Image has some encrypted text  
 ![Barn-Owl-1-280di-280x420](https://user-images.githubusercontent.com/66635295/160780071-a334d6e9-d658-47f0-9a2e-b6ab78a2eb45.jpg)  
 
-**Decrypt**
-It appears to be a base64 encryption  
+**Decrypt**  
+The text appears to be in base64 encryption  
 Using [base64decoder](https://www.base64decode.org/)  
 <pre>TjFnaHQgMHdM</pre>  
 We get the hidden message  
