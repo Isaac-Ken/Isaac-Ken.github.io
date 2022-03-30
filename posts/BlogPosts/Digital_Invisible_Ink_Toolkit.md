@@ -43,7 +43,7 @@ Changing the .txt to a .jpg reveals a new image
 ![convert](https://user-images.githubusercontent.com/66635295/160779835-1f787a4d-7bd1-49a4-9133-1826c3c67fb6.png)  
 
 **New Image**  
-Looks like the new image has some encrypted text on it 
+The new image has some encrypted text on it   
 ![Barn-Owl-1-280di-280x420](https://user-images.githubusercontent.com/66635295/160780071-a334d6e9-d658-47f0-9a2e-b6ab78a2eb45.jpg)  
 [source](https://www.birdlife.org.au/bird-profile/barn-owl)
 
