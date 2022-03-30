@@ -32,9 +32,9 @@ This algorithm randomly distributes the message across the image
 Save an empty txt file to your desktop to write to  
 ![diirt5](https://user-images.githubusercontent.com/66635295/160777368-13ca01b2-7b33-4945-9775-6f73d1dd8c7a.png)  
 
-**Success**  
-Successfull retrieval 
-![succ](https://user-images.githubusercontent.com/66635295/160778823-669c6050-606e-4bb9-bd4c-a55a85b1f4ee.png)  
+**Success**    
+Successfull retrieval   
+![succ](https://user-images.githubusercontent.com/66635295/160778823-669c6050-606e-4bb9-bd4c-a55a85b1f4ee.png)    
  
  Reading the file we see it's mostly unreadable but  JFIF is of intrest  
  
