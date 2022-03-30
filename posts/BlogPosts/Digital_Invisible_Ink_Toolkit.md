@@ -31,7 +31,7 @@ This algorithm randomly distributes the message across the image
 Save an empty txt file to your desktop to write to  
 ![diirt5](https://user-images.githubusercontent.com/66635295/160777368-13ca01b2-7b33-4945-9775-6f73d1dd8c7a.png)  
 
-**Success**
+**Success**  
 Successfull retrieval 
 ![succ](https://user-images.githubusercontent.com/66635295/160778823-669c6050-606e-4bb9-bd4c-a55a85b1f4ee.png)  
  
@@ -40,7 +40,7 @@ Successfull retrieval
 ![jfif](https://user-images.githubusercontent.com/66635295/160779136-b842d100-7e31-4dc3-8c1c-d37f3d59c52f.png)  
 
 **TXT to JPG**  
-Changing the .txt to a .jpg reveals a new image  
+Changing the .txt to .jpg reveals a new image  
 ![convert](https://user-images.githubusercontent.com/66635295/160785193-50bad0f9-9737-46f0-af36-fcbba421f5d1.png)  
 
 **New Image**  
