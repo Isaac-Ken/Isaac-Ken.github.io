@@ -6,15 +6,17 @@ title: Home
 ## **Welcome To My Blog**
 
 **"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
+## **Posts:**  
+- **2022-03-30:** [Stegongraphy with Digital Invisible Ink Toolkit](https://isaac-ken.github.io/posts) `Stegonography,` `DIIRT`
 
 ## **ProvingGrounds_Writeups:**  
-- **Mar 014, 2022:** [FunBox Easy](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Easy.html) `Reverse Shell,` `Dirbuster,` `SSH`
+- **2022-03-14:** [FunBox Easy](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Easy.html) `Reverse Shell,` `Dirbuster,` `SSH`
 
-- **Mar 09, 2022:** [FunBox Rookie](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Rookie.html) `FTP,` `John the Ripper,` `Dirbuster,` `SSH`
+- **2022-03-09:** [FunBox Rookie](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Rookie.html) `FTP,` `John the Ripper,` `Dirbuster,` `SSH`
 
-- **Mar 04, 2022:** [Monitoring](https://isaac-ken.github.io/posts/ProvingGrounds/Monitoring.html) `Nagios XI,` `Remote Code Execution`
+- **2022-03-04:** [Monitoring](https://isaac-ken.github.io/posts/ProvingGrounds/Monitoring.html) `Nagios XI,` `Remote Code Execution`
 
-- **Mar 03, 2022:** [WPWN](https://isaac-ken.github.io/posts/ProvingGrounds/WPWN.html) `WordPress,` `Plugin`
+- **2022-03-03:** [WPWN](https://isaac-ken.github.io/posts/ProvingGrounds/WPWN.html) `WordPress,` `Plugin`
 
 ## **VulnHub_Writeups:**
 
