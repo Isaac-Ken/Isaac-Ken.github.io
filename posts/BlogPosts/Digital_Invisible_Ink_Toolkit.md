@@ -50,7 +50,7 @@ The new image has some encrypted text on it
 [source](https://www.birdlife.org.au/bird-profile/barn-owl)
 
 **Decrypt**  
-The text appears to be in base64 encryption  
+The text appears to be base64 encryption  
 Using [base64decoder](https://www.base64decode.org/)  
 <pre>TjFnaHQgMHdM</pre>  
 We get the hidden message  
