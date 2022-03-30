@@ -2,7 +2,8 @@
 ---
 **Anlyzing photos for stegonogrpahy**  
 I have modified the photo below using [Digital Invisible Ink Toolkit](http://diit.sourceforge.net/)  
-![Barn_Owl](https://user-images.githubusercontent.com/66635295/160773510-899c0ea3-019c-4796-b53f-12b8985a6efc.png)  
+![Barn_Owl](https://user-images.githubusercontent.com/66635295/160784188-55b0ffdf-e845-46dc-9c32-22e9bcaf155e.png)  
+
 [source](https://www.owlpages.com/owls/authors.php?a=10)  
 
 **What is Digital Invisible Ink Toolkit**  
@@ -44,7 +45,8 @@ Changing the .txt to a .jpg reveals a new image
 
 **New Image**  
 The new image has some encrypted text on it   
-![Barn-Owl-1-280di-280x420](https://user-images.githubusercontent.com/66635295/160780071-a334d6e9-d658-47f0-9a2e-b6ab78a2eb45.jpg)  
+![Barn-Owl-1-280di-280x420](https://user-images.githubusercontent.com/66635295/160784256-fd52c521-876f-49ff-b9a5-0c771476916b.jpg)  
+
 [source](https://www.birdlife.org.au/bird-profile/barn-owl)
 
 **Decrypt**  
