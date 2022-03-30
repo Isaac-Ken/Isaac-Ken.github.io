@@ -20,7 +20,7 @@ title: Home
 
 ## **VulnHub_Writeups:**
 
-- **Mar 08, 2022:** [Kioptrix1](https://isaac-ken.github.io/posts/VulnHub/Kioptrix1.html) `Samba,` `Remote Code Execution`
+- **2022-03-08:** [Kioptrix1](https://isaac-ken.github.io/posts/VulnHub/Kioptrix1.html) `Samba,` `Remote Code Execution`
 
 
 ## **PortSwigger_Labs:**  
