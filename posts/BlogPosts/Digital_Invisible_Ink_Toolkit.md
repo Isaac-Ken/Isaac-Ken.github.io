@@ -12,13 +12,14 @@ I have modified the photo below using [Digital Invisible Ink Toolkit](http://dii
 
 
 **Running (DIIRT)**  
-Using the decode tab were going to upload are image and check for any hidden messages  
+Using the decode tab were going to upload our image and check for any hidden messages  
 ![diirt2](https://user-images.githubusercontent.com/66635295/160773981-d495eacc-8f7d-4ea9-b0b4-94a203c70bf2.png)  
 
 **Analyzing the photo**  
 It appears the word salt is hidden in the wood  
 ![Barn_Owl_Salt](https://user-images.githubusercontent.com/66635295/160774572-ca90ba94-d984-40aa-9ee4-3c99ea31aaf4.png)  
-lets try this in our password box  
+
+Lets try this in our password box  
 ![diirt3](https://user-images.githubusercontent.com/66635295/160774905-4f241d4b-e199-4da8-b21d-0c0f0ef896a4.png)  
 
 
