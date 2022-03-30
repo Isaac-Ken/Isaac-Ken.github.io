@@ -41,7 +41,7 @@ Successfull retrieval
 
 **TXT to JPG**  
 Changing the .txt to a .jpg reveals a new image  
-![convert](https://user-images.githubusercontent.com/66635295/160779835-1f787a4d-7bd1-49a4-9133-1826c3c67fb6.png)  
+![convert](https://user-images.githubusercontent.com/66635295/160785193-50bad0f9-9737-46f0-af36-fcbba421f5d1.png)  
 
 **New Image**  
 The new image has some encrypted text on it   
