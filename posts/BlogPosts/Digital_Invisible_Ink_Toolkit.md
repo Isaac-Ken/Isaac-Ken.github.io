@@ -45,6 +45,7 @@ Changing the .txt to a .jpg reveals a new image
 **New Image**  
 Looks like the new image has some encrypted text on it 
 ![Barn-Owl-1-280di-280x420](https://user-images.githubusercontent.com/66635295/160780071-a334d6e9-d658-47f0-9a2e-b6ab78a2eb45.jpg)  
+[source](https://www.birdlife.org.au/bird-profile/barn-owl)
 
 **Decrypt**  
 The text appears to be in base64 encryption  
