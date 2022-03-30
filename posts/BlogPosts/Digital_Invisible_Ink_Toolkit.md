@@ -23,5 +23,5 @@ lets try this in our password box
 
 **HideSeek**  
 This algorithm randomly distributes the message across the image  
-*you wouldnt necessarily know which algorithm   
+(you wouldnt necessarily know which algorithm)  
 ![diirt4](https://user-images.githubusercontent.com/66635295/160775691-2d6d2bd5-1e68-41aa-94f4-b901b6db241a.png)  
