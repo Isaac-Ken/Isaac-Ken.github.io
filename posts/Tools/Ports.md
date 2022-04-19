@@ -1,3 +1,6 @@
+![Commonly-used-ports](https://user-images.githubusercontent.com/66635295/164119737-eacdabe1-cc16-406e-8ffd-57d3aa1686f9.png)
+
+
 |protocol|port |description                                                                                   |
 |--------|-----|----------------------------------------------------------------------------------------------|
 |TCP     |0    |Reserved                                                                                      |
