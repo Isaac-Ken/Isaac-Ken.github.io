@@ -4,6 +4,7 @@ title: Home
 ---
 
 **"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
+--
 
 ## **Posts:**  
 - **2022-03-30:** [Stegongraphy with Digital Invisible Ink Toolkit](https://isaac-ken.github.io/posts/BlogPosts/Digital_Invisible_Ink_Toolkit.html) `Stegonography,` `DIIRT`
