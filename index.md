@@ -2,8 +2,7 @@
 layout: default
 title: Home
 ---
-
-## Welcome 
+##
 
 **"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
 ## **Posts:**  
