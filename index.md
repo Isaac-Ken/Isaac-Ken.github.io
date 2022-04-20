@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## **Welcome To My Blog**
+## **Welcome **
 
 **"We are losing privacy at an alarming rate -- we have none left." -John McAfee**
 ## **Posts:**  
