@@ -1,3 +1,10 @@
+Steps:
+1. Convert Address and Mask to Decimal
+2. Calculate the Network Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 0
+3. Calculate the Broadcast Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 255
+4. First IP:Network Address +1
+5. Last IP:Broadcast Address -1
+
 Chart 1:
 
 |Column 1|Column 2|Column 3|Column 4|Mask|Network|Addresses|
@@ -13,3 +20,6 @@ Chart 1:
 
 Chart 2:
 ![image](https://user-images.githubusercontent.com/66635295/164542668-3a6305d5-e2c9-4990-8bd3-8d19509cd2e8.png)
+
+
+Example:
