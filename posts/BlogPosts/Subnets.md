@@ -36,3 +36,10 @@ Address: 165.245.12.88/24
 |Broadcast Address|165|245|12|255|
 |First Ip|165|245|12|1|
 |Last Ip|165|245|12|254|
+
+
+1. Column 3: /24  Mask:255 
+2. Bring Down Address and use 0
+3. Bring Down Address and convert  0
+4. Network Address +1
+5. Broadcast Address -1
