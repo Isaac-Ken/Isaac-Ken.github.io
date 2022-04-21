@@ -12,4 +12,4 @@ Chart 1:
 |/8      |/16      |/24     |/32     |255 |256    |1       |
 
 Chart 2:
-![image](https://user-images.githubusercontent.com/66635295/164542100-74ddbe49-a737-4f7c-b638-38e2bc352c9f.png)
+![image](https://user-images.githubusercontent.com/66635295/164542574-36723118-487e-4725-af8e-7f9d3406f0ae.png)
