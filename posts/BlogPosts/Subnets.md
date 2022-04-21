@@ -1,5 +1,6 @@
-##Subnetting
-Steps:
+**Subnetting**
+--
+**Steps:**
 1. Convert Address and Mask to Decimal
 2. Calculate the Network Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 0 (Other Numbers Refer to Chart 2)
 3. Calculate the Broadcast Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 255
