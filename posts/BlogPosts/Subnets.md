@@ -1,3 +1,4 @@
+##Subnetting
 Steps:
 1. Convert Address and Mask to Decimal
 2. Calculate the Network Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 0 (Other Numbers Refer to Chart 2)
@@ -68,5 +69,7 @@ Address: 165.245.10.77/26
 Cheat Sheet:   
 *Subtract 2 from Host  
 ![image](https://user-images.githubusercontent.com/66635295/164549637-e75180cc-d2e5-4972-8df4-723996b0b42e.png)
+
+Use a Tool https://www.ipaddressguide.com/
 
 
