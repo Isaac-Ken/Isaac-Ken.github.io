@@ -1,3 +1,4 @@
+Chart 1:
 
 |Column 1|Column 2|Column 3|Column 4|Mask|Network|Addresses|
 |--------|--------|--------|--------|----|-------|---------|
@@ -10,4 +11,5 @@
 |/7      |/15      |/23     |/31     |254 |128    |2       |
 |/8      |/16      |/24     |/32     |255 |256    |1       |
 
+Chart 2:
 ![image](https://user-images.githubusercontent.com/66635295/164542100-74ddbe49-a737-4f7c-b638-38e2bc352c9f.png)
