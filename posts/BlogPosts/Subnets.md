@@ -22,4 +22,14 @@ Chart 2:
 ![image](https://user-images.githubusercontent.com/66635295/164542668-3a6305d5-e2c9-4990-8bd3-8d19509cd2e8.png)
 
 
-Example:
+Examples:
+
+
+
+Address: 165.245.12.88/24
+
+|Address|165|245|12|88|
+|-------|---|---|--|--|
+|Mask   |255|255|255|0|
+| | &#8595;| &#8595;| &#8595;|x|
+|Net      |165|245|12|0|
