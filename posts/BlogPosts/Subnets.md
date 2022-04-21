@@ -10,3 +10,4 @@
 |/7      |/15      |/23     |/31     |254 |128    |2       |
 |/8      |/16      |/24     |/32     |255 |256    |1       |
 
+![image](https://user-images.githubusercontent.com/66635295/164542100-74ddbe49-a737-4f7c-b638-38e2bc352c9f.png)
