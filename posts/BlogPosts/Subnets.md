@@ -64,3 +64,7 @@ Address: 165.245.10.77/26
 3. Bring Down Address Last Number in Row is 127
 4. Network Address +1
 5. Broadcast Address -1
+
+![image](https://user-images.githubusercontent.com/66635295/164549637-e75180cc-d2e5-4972-8df4-723996b0b42e.png)
+
+
