@@ -7,7 +7,7 @@
 4. First IP:Network Address +1
 5. Last IP:Broadcast Address -1
 
-Chart 1:
+**Chart 1:**
 
 |Column 1|Column 2|Column 3|Column 4|Mask|Network|Addresses|
 |--------|--------|--------|--------|----|-------|---------|
@@ -20,11 +20,11 @@ Chart 1:
 |/7      |/15      |/23     |/31     |254 |128    |2       |
 |/8      |/16      |/24     |/32     |255 |256    |1       |
 
-Chart 2:
+**Chart 2:**
 ![image](https://user-images.githubusercontent.com/66635295/164542668-3a6305d5-e2c9-4990-8bd3-8d19509cd2e8.png)
 
 
-Examples:
+**Examples:**
 
 
 
@@ -67,7 +67,7 @@ Address: 165.245.10.77/26
 4. Network Address +1
 5. Broadcast Address -1
 
-Cheat Sheet:   
+**Cheat Sheet:**   
 *Subtract 2 from Host  
 ![image](https://user-images.githubusercontent.com/66635295/164549637-e75180cc-d2e5-4972-8df4-723996b0b42e.png)
 
