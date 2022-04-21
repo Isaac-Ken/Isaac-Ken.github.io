@@ -1,5 +1,5 @@
 
-|Column 1|Column 2|Column 3|Column 4|Mask|Network|Addresses|
+|||||Masks|Network|Addresses|
 |--------|--------|--------|--------|----|-------|---------|
 |/1      |/9       |/17     |/25     |128 |2      |128     |
 |/2      |/10      |/18     |/26     |192 |4      |64      |
