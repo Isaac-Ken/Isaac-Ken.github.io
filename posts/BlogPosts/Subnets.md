@@ -65,7 +65,7 @@ Address: 165.245.10.77/26
 4. Network Address +1
 5. Broadcast Address -1
 
-Cheat Sheet: 
+Cheat Sheet:   
 *Subtract 2 from Host  
 ![image](https://user-images.githubusercontent.com/66635295/164549637-e75180cc-d2e5-4972-8df4-723996b0b42e.png)
 
