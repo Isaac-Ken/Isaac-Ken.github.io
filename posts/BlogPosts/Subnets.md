@@ -1,6 +1,6 @@
 Steps:
 1. Convert Address and Mask to Decimal
-2. Calculate the Network Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 0
+2. Calculate the Network Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 0 (Other Numbers Refer to Chart 2)
 3. Calculate the Broadcast Address: If the Mask is 255, Bring Down the Adress. If the Mask is 0 use 255
 4. First IP:Network Address +1
 5. Last IP:Broadcast Address -1
@@ -26,20 +26,41 @@ Examples:
 
 
 
-Address: 165.245.12.88/24
+Address: 165.245.10.77/24
 
-|Address|165|245|12|88|
+|Address|165|245|10|77|
 |-------|---|---|--|--|
 |Mask   |255|255|255|0|
 | | &#8595;| &#8595;| &#8595;| &#8595;|
-|Network Adress|165|245|12|0|
-|Broadcast Address|165|245|12|255|
-|First Ip|165|245|12|1|
-|Last Ip|165|245|12|254|
+|Network Adress|165|245|10|0|
+|Broadcast Address|165|245|10|255|
+|First Ip|165|245|10|1|
+|Last Ip|165|245|10|254|
 
 
 1. Column 3: /24  Mask:255 
 2. Bring Down Address and use 0
 3. Bring Down Address and convert  0
+4. Network Address +1
+5. Broadcast Address -1
+
+
+
+
+Address: 165.245.10.77/26
+
+|Address|165|245|10|77|
+|-------|---|---|--|--|
+|Mask   |255|255|255|192|
+| | &#8595;| &#8595;| &#8595;| &#8595;|
+|Network Adress|165|245|10|64|
+|Broadcast Address|165|245|10|127|
+|First Ip|165|245|10|65|
+|Last Ip|165|245|10|126|
+
+
+1. Column 4: /26  Mask:192 
+2. Bring Down Address, Mask 192 has Address 64: 77 falls into row 64
+3. Bring Down Address Last Number in Row is 127
 4. Network Address +1
 5. Broadcast Address -1
