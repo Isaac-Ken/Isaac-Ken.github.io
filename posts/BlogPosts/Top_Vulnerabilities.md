@@ -19,6 +19,7 @@ No. 	Vulnerability
 
 
 **HTB's 20 essential web developers mistakes for penetration testers:**
+---
 
 **1.** Permitting Invalid Data to Enter the Database
 **2.** Focusing on the System as a Whole 
