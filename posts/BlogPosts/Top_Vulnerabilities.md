@@ -22,8 +22,14 @@
 ---
 
 **1.** Permitting Invalid Data to Enter the Database  
+
+
 **2.** Focusing on the System as a Whole   
+
+
 **3.** Establishing Personally Developed Security Methods   
+
+
 **4.** Treating Security to be Your Last Step   
 **5.** Developing Plain Text Password Storage    
 **6.** Creating Weak Passwords    
