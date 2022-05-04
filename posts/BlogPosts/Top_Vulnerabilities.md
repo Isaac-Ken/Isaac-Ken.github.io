@@ -18,7 +18,7 @@ No. 	Vulnerability
 
 
 
-20  essential mistakes web developers for penetration testers:
+**20  essential mistakes web developers for penetration testers:**
 |No.|Mistake|
 |---|-------|
 |1.| 	Permitting Invalid Data to Enter the Database|
