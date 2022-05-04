@@ -7,7 +7,7 @@ title: Home
 --
 
 ## **Posts:**  
-- **2022-05-04** [Top Web Application Vulnerabilities](https://isaac-ken.github.io/posts/BlogPosts/Top_Vulnerabilities.html)`Web Applications` `Vulnerabilities`
+- **2022-05-04** [Top Web Application Vulnerabilities](https://isaac-ken.github.io/posts/BlogPosts/Top_Vulnerabilities.html) `Web Applications` `Vulnerabilities`
 
 - **2022-04-21:** [Subnetting](https://isaac-ken.github.io/posts/BlogPosts/Subnets.html) `Networking,` `IP Addresses`
 
