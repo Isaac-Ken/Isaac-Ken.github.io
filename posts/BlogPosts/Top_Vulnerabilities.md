@@ -1,6 +1,6 @@
 
 
-**OWASP Top 10 web applications vulnerabilities**
+**OWASP Top 10 Web Applications Vulnerabilities**
 ---
 
 **1.** Injection  
@@ -37,7 +37,7 @@
 
 
 
-**HTB Top 20 web developer mistakes:**
+**HTB Top 20 Web Developer Mistakes:**
 ---
 
 **1.** Permitting Invalid Data to Enter the Database  
