@@ -37,7 +37,7 @@
 
 
 
-**HTB 20 essential web developer mistakes for penetration testers:**
+**HTB Top 20 web developer mistakes:**
 ---
 
 **1.** Permitting Invalid Data to Enter the Database  
