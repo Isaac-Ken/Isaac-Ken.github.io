@@ -37,7 +37,7 @@
 
 
 
-**HTB Top 20 Web Developer Mistakes:**
+**HTB Top 20 Web Developer Mistakes**
 ---
 
 **1.** Permitting Invalid Data to Enter the Database  
