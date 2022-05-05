@@ -5,19 +5,24 @@
 |Target Validation|nslookup, dnsrecon, WHOIS|
 |Subdomain Search|Amass, Sublist3r, crt.sh, dig|
 |Fingerprinting|Nmap, NetCat, Wappalyzer, WhatWeb, BuiltWith|
-|Data Leaks|Breach-Parse, WeLeakInfo, HaveIBeenPwned|
+|Data Leaks|WeLeakInfo, HaveIBeenPwned,Breach-Parse|
 
 **Identify Target**
 --
 **Bug Bounty**
 
-Using Bug Crowd I found Under Armour as a legal target for testing
+Using Bug Crowd I found Lime as a legal target for testing
 
-![Target](https://user-images.githubusercontent.com/66635295/167031707-f6a390da-10a4-429a-825d-9ab317444e47.png)
+![Target](https://user-images.githubusercontent.com/66635295/167045040-d644645d-7aa2-48bd-903c-b0a870d7f379.png)
 
+![targetpage](https://user-images.githubusercontent.com/66635295/167045095-292759a6-5b82-4f9e-ab9b-6da2c92594e8.png)
+
+
+**Information Gathering**
+--
 **Hunter.io**
 
 Hunter.io can be used to find and identify Emails and Users connected to the company. 
 
 ![hunter](https://user-images.githubusercontent.com/66635295/167033436-84a7e7e8-6a55-4c0e-a77b-50b5c5423ccf.png)
-![hunted](https://user-images.githubusercontent.com/66635295/167033452-e76088de-2fb0-40b8-8c89-6e562bdc5c0a.png)
+![hunted](https://user-images.githubusercontent.com/66635295/167045144-af87b8d8-0d1c-4e61-a031-c5329f3ec13e.png)
