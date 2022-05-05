@@ -12,7 +12,7 @@ title: Home
 
 ## [/Tools](https://isaac-ken.github.io/posts/Tools/)
 
-## [/Proving_Grounds](https://isaac-ken.github.io/posts/ProvingGrounds/) 
+## [/ProvingGrounds](https://isaac-ken.github.io/posts/ProvingGrounds/) 
 
 ## [/VulnHub](https://isaac-ken.github.io/posts/VulnHub/)     
 
