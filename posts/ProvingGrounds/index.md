@@ -2,7 +2,7 @@
 layout: default
 title: ProvingGrounds
 ---
-<pre> root@blog:~# cd /Proving_Grounds </pre>  
+<pre> root@blog:~# cd /ProvingGrounds </pre>  
 
 ## **ProvingGrounds_Writeups:**  
 
