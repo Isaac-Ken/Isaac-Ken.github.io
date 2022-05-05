@@ -7,9 +7,7 @@ title: Home
 --
 
 
-## **VulnHub_Writeups:**
 
-- **2022-03-08:** [Kioptrix1](https://isaac-ken.github.io/posts/VulnHub/Kioptrix1.html) `Samba,` `Remote Code Execution`
 
 
 
@@ -19,7 +17,10 @@ title: Home
 
 ## [/Tools](https://isaac-ken.github.io/posts/Tools/)
 
-## [/Proving_Grounds](https://isaac-ken.github.io/posts/ProvingGrounds/)     
+## [/Proving_Grounds](https://isaac-ken.github.io/posts/ProvingGrounds/) 
+
+## [/VulnHub](https://isaac-ken.github.io/posts/VulnHub/)     
+
 
 ## **HackTheBox_Writeups:**
 
