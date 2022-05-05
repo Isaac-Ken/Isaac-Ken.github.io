@@ -7,9 +7,6 @@ title: Home
 --
 
 
-
-- **2022-03-30:** [Stegongraphy with Digital Invisible Ink Toolkit](https://isaac-ken.github.io/posts/BlogPosts/Digital_Invisible_Ink_Toolkit.html) `Stegonography,` `DIIRT`
-
 ## **ProvingGrounds_Writeups:**  
 - **2022-03-14:** [FunBox Easy](https://isaac-ken.github.io/posts/ProvingGrounds/FunBox%20Easy.html) `Reverse Shell,` `Dirbuster,` `SSH`
 
