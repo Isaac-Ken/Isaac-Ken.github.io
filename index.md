@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-![3000](https://user-images.githubusercontent.com/66635295/166966262-d2e4da1b-4d06-466e-ba1f-a0178a7cd48a.png)
+![3000](https://user-images.githubusercontent.com/66635295/166967115-655ca6c6-6610-4532-9a29-84f95b6dbce3.png)
 
 
 "We are losing privacy at an alarming rate -- we have none left." -John McAfee
