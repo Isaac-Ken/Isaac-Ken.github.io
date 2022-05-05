@@ -2,5 +2,5 @@
 layout: default
 title: BlogPosts
 ---
-<pre> root@blog:~# cd /Posts </pre>  
-## **Blog**
+<pre> root@blog:~# cd /Misc </pre>  
+## **Misc Posts**
