@@ -39,7 +39,8 @@ Quick and Easy Search Engine Scanner
 
 
 **crt.sh**
-Web Tool for Searching
+
+Web Tool for Sub Domain Searching
 
 ![crtsh](https://user-images.githubusercontent.com/66635295/167046423-e9b78df8-2ff7-49e6-9398-381ca7b8fd4e.png)
 
