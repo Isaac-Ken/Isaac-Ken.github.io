@@ -1,7 +1,7 @@
 **Reconnaissance Tools**
 ---
-|Usage |Tool |
-|-|-|
+| Usage | Tool |
+|-------|------|
 |Target Validation|nslookup, dnsrecon, WHOIS|
 |Subdomain Search|Amass, Sublist3r, crt.sh, dig|
 |Fingerprinting|Nmap, NetCat, Wappalyzer, WhatWeb, BuiltWith|
