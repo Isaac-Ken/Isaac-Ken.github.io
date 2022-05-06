@@ -5,7 +5,7 @@
 |Target Validation|nslookup, dnsrecon, WHOIS|
 |Subdomain Search|Amass, Sublist3r, crt.sh, dig|
 |Fingerprinting|Nmap, NetCat, Wappalyzer, WhatWeb, BuiltWith|
-|Data Leaks|WeLeakInfo, HaveIBeenPwned,Breach-Parse|
+|Data Leaks|WeLeakInfo, HaveIBeenPwned, Breach-Parse|
 
 **Identify Target**
 --
