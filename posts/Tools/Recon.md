@@ -48,4 +48,14 @@ Although These result arent very intersting further scrolling reveals admin/test
 
 ![crtres](https://user-images.githubusercontent.com/66635295/167046580-f4fc7223-40ff-4e80-a2ec-a203323f16a0.png)
 
+**Amass**
+
+Best and Deepest Scanner
+
+![amass](https://user-images.githubusercontent.com/66635295/167051198-d34d6a9e-7f7e-4366-b57d-d0379d1b50f7.png)
+
+![amasss](https://user-images.githubusercontent.com/66635295/167051208-fe5d7e0f-e710-4967-954b-2ed74004e600.png)
+
+
+
 
