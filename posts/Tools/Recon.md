@@ -70,9 +70,8 @@ FireFox Extension for Webpages
 **Built With*
 Web Tool for Fingerprinting 
 
-![bwf](https://user-images.githubusercontent.com/66635295/167052761-8a4796f8-ee4d-4920-a835-b0651d59383f.png)
-
 ![lime](https://user-images.githubusercontent.com/66635295/167052839-c0443e81-f594-41ca-a574-3ea8282e97ea.png)
+![bwf](https://user-images.githubusercontent.com/66635295/167052761-8a4796f8-ee4d-4920-a835-b0651d59383f.png)
 
 ![limebike](https://user-images.githubusercontent.com/66635295/167052865-09ff288f-92bd-4b38-92aa-623956e803ab.png)
 
