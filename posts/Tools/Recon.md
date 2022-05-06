@@ -50,7 +50,7 @@ Although These result arent very intersting further scrolling reveals admin/test
 
 **Amass**
 
-Best and Deepest Scanner
+Best Subdomain Searcher
 
 ![amass](https://user-images.githubusercontent.com/66635295/167051198-d34d6a9e-7f7e-4366-b57d-d0379d1b50f7.png)
 
