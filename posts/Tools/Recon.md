@@ -23,7 +23,28 @@ Using Bug Crowd I found Lime as a legal target for testing
 --
 **Hunter.io**
 
-Hunter.io can be used to find and identify Emails and Users connected to the company. 
+Hunter.io can be used to find and identify Emails and Users connected to the company. (lime.me is there main website)
 
 ![hunter](https://user-images.githubusercontent.com/66635295/167033436-84a7e7e8-6a55-4c0e-a77b-50b5c5423ccf.png)
 ![hunted](https://user-images.githubusercontent.com/66635295/167045144-af87b8d8-0d1c-4e61-a031-c5329f3ec13e.png)
+
+
+**Subdoamin Search**
+--
+**Sublist3r**
+
+Quick and Easy Search Engine Scanner
+
+![sublist3r](https://user-images.githubusercontent.com/66635295/167046003-b6d9165c-75ec-4121-8ce9-d4d9490d61a7.png)
+
+
+**crt.sh**
+Web Tool for Searching
+
+![crtsh](https://user-images.githubusercontent.com/66635295/167046423-e9b78df8-2ff7-49e6-9398-381ca7b8fd4e.png)
+
+Although These result arent very intersting further scrolling reveals admin/test tools
+
+![crtres](https://user-images.githubusercontent.com/66635295/167046580-f4fc7223-40ff-4e80-a2ec-a203323f16a0.png)
+
+
