@@ -82,3 +82,13 @@ Built in Fingerprinter
 ![watweb](https://user-images.githubusercontent.com/66635295/167053852-959911f0-f900-4b3c-be83-c67bf0a2d1f8.png)
 
 
+**WebProxy**
+--
+**BurpSuite Community Eddition**
+ Best Web Scanner
+![burpc](https://user-images.githubusercontent.com/66635295/167054521-db691d40-4fc9-43b2-b16f-84aa65cb7713.png)
+![burp](https://user-images.githubusercontent.com/66635295/167054524-1d272368-2f41-4973-9482-7fcf939484b0.png)
+
+
+
+
