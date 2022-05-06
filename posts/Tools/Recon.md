@@ -1,6 +1,8 @@
 **Reconnaissance Tools**
 ---
+
 | Usage | Tool |
+
 |-----------------|--------------------------------------------|
 |Target Validation|nslookup, dnsrecon, WHOIS                   |
 |Subdomain Search |Amass, Sublist3r, crt.sh, dig               | 
