@@ -29,7 +29,7 @@ Hunter.io can be used to find and identify Emails and Users connected to the com
 ![hunted](https://user-images.githubusercontent.com/66635295/167045144-af87b8d8-0d1c-4e61-a031-c5329f3ec13e.png)
 
 
-**Subdoamin Search**
+**Subdomain Search**
 --
 **Sublist3r**
 
@@ -56,6 +56,14 @@ Best and Deepest Scanner
 
 ![amasss](https://user-images.githubusercontent.com/66635295/167051208-fe5d7e0f-e710-4967-954b-2ed74004e600.png)
 
+**Fingerprinting**
+--
 
+**Wappalyzer**
 
+FireFox Extension for Webpages 
+
+![wapp](https://user-images.githubusercontent.com/66635295/167051502-49c3419a-ceaa-4384-bd61-0fbe11f2ab5e.png)
+
+![wappfe](https://user-images.githubusercontent.com/66635295/167051603-fd50e60c-474d-4d00-a71f-1b632c9f9e26.png)
 
