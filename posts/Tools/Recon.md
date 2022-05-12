@@ -24,7 +24,7 @@ Using Bug Crowd I found Lime as a legal target for testing
 --
 **Hunter.io**
 
-Web Tool for Identifying Emails (lime.me is there main website)
+Web Tool for Identifying Emails (li.me is there main website)
 
 ![hunter](https://user-images.githubusercontent.com/66635295/167033436-84a7e7e8-6a55-4c0e-a77b-50b5c5423ccf.png)
 ![hunted](https://user-images.githubusercontent.com/66635295/167045144-af87b8d8-0d1c-4e61-a031-c5329f3ec13e.png)
