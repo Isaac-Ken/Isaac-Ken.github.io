@@ -23,3 +23,18 @@ You can extract part of a string, from a specified offset with a specified lengt
 | Microsoft | `SUBSTRING('foobar', 4, 2)` |
 | PostgreSQL | `SUBSTRING('foobar', 4, 2)` |
 | MySQL | `SUBSTRING('foobar', 4, 2)` |
+
+Comments
+--------
+
+You can use comments to truncate a query and remove the portion of the original query that follows your input.
+
+| Oracle | `--comment\
+` |
+| Microsoft | `--comment\
+/*comment*/` |
+| PostgreSQL | `--comment\
+/*comment*/` |
+| MySQL | `#comment`\
+`-- comment` 
+`/*comment*/` |
