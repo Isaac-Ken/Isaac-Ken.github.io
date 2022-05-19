@@ -43,12 +43,11 @@ Database version
 
 You can query the database to determine its type and version. This information is useful when formulating more complicated attacks.
 
-| Oracle | `SELECT banner FROM v$version\
-SELECT version FROM v$instance\
-` |
-| Microsoft | `SELECT @@version` |
-| PostgreSQL | `SELECT version()` |
-| MySQL | `SELECT @@version` |
+| Oracle  `SELECT banner FROM v$version\
+SELECT version FROM v$instance\` |
+| Microsoft  `SELECT @@version` |
+| PostgreSQL  `SELECT version()` |
+| MySQL  `SELECT @@version` |
 
 Database contents
 -----------------
