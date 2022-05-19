@@ -6,9 +6,9 @@ This SQL injection cheat sheet contains examples of useful syntax that you can u
 **String concatenation**
 You can concatenate together multiple strings to make a single string.
 
-|Database|Command |
-|--------|------------|
-|Oracle  |'foo'||'bar'|
+|String concatenation |
+|--------------------|
+|Oracle  'foo'||'bar'|
 Microsoft 	'foo'+'bar'
 PostgreSQL 	'foo'||'bar'
 MySQL 	'foo' 'bar' [Note the space between the two strings]
