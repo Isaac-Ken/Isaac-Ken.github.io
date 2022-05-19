@@ -22,10 +22,13 @@ Substring
 
 You can extract part of a string, from a specified offset with a specified length. Note that the offset index is 1-based. Each of the following expressions will return the string `ba`.
 
-| Oracle  `SUBSTR('foobar', 4, 2)` |
-| Microsoft  `SUBSTRING('foobar', 4, 2)` |
-| PostgreSQL  `SUBSTRING('foobar', 4, 2)` |
-| MySQL  `SUBSTRING('foobar', 4, 2)` |
+Oracle  `SUBSTR('foobar', 4, 2)` 
+
+Microsoft  `SUBSTRING('foobar', 4, 2)` 
+
+PostgreSQL  `SUBSTRING('foobar', 4, 2)` 
+
+MySQL  `SUBSTRING('foobar', 4, 2)` 
 
 Comments
 --------
