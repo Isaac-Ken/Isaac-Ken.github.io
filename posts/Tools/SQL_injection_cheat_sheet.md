@@ -15,6 +15,7 @@ You can concatenate together multiple strings to make a single string.
  PostgreSQL  `'foo'||'bar'` 
  
  MySQL  `'foo' 'bar'` 
+        
         `CONCAT('foo','bar')` 
 
 Substring
