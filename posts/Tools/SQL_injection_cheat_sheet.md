@@ -30,10 +30,13 @@ Comments
 You can use comments to truncate a query and remove the portion of the original query that follows your input.
 
 | Oracle  `--comment\` |
+
 | Microsoft  `--comment\
 /*comment*/` |
+
 | PostgreSQL  `--comment\
 /*comment*/` |
+
 | MySQL  `#comment`\
 `-- comment` 
 `/*comment*/` |
@@ -45,8 +48,11 @@ You can query the database to determine its type and version. This information i
 
 | Oracle  `SELECT banner FROM v$version\
 SELECT version FROM v$instance\` |
+
 | Microsoft  `SELECT @@version` |
+
 | PostgreSQL  `SELECT version()` |
+
 | MySQL  `SELECT @@version` |
 
 Database contents
@@ -54,13 +60,11 @@ Database contents
 
 You can list the tables that exist in the database, and the columns that those tables contain.
 
-| Oracle | `SELECT * FROM all_tables\
+| Oracle  `SELECT * FROM all_tables\
 SELECT * FROM all_tab_columns WHERE table_name = 'TABLE-NAME-HERE'` |
-| Microsoft | `SELECT * FROM information_schema.tables\
-SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'\
-` |
-| PostgreSQL | `SELECT * FROM information_schema.tables\
-SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'\
-` |
-| MySQL | `SELECT * FROM information_schema.tables\
+| Microsoft  `SELECT * FROM information_schema.tables\
+SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'\` |
+| PostgreSQL  `SELECT * FROM information_schema.tables\
+SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'\` |
+| MySQL  `SELECT * FROM information_schema.tables\
 SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'` |
