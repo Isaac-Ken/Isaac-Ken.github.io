@@ -126,7 +126,7 @@ Conditional time delays
 
 You can test a single boolean condition and trigger a time delay if the condition is true.
 
-Oracle  `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN`\ 
+Oracle  `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN` \ 
 `'a'||dbms_pipe.receive_message(('a'),10) ELSE NULL END FROM dual` 
 
 Microsoft  `IF (YOUR-CONDITION-HERE) WAITFOR DELAY '0:0:10'` 
