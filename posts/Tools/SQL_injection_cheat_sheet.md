@@ -8,11 +8,14 @@ String concatenation
 
 You can concatenate together multiple strings to make a single string.
 
-| Oracle  `'foo'||'bar'` |
-| Microsoft  `'foo'+'bar'` |
-| PostgreSQL  `'foo'||'bar'` |
-| MySQL  `'foo' 'bar'` 
-        `CONCAT('foo','bar')` |
+ Oracle  `'foo'||'bar'` 
+ 
+ Microsoft  `'foo'+'bar'` 
+ 
+ PostgreSQL  `'foo'||'bar'` 
+ 
+ MySQL  `'foo' 'bar'` 
+        `CONCAT('foo','bar')` 
 
 Substring
 ---------
