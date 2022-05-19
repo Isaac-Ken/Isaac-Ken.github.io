@@ -66,16 +66,16 @@ Database contents
 
 You can list the tables that exist in the database, and the columns that those tables contain.
 
-Oracle  `SELECT * FROM all_tables\
+Oracle  `SELECT * FROM all_tables \
 SELECT * FROM all_tab_columns WHERE table_name = 'TABLE-NAME-HERE'` 
 
-Microsoft  `SELECT * FROM information_schema.tables\
+Microsoft  `SELECT * FROM information_schema.tables \
 SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'\`
 
-PostgreSQL  `SELECT * FROM information_schema.tables\
+PostgreSQL  `SELECT * FROM information_schema.tables \
 SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'\`
 
-MySQL  `SELECT * FROM information_schema.tables\
+MySQL  `SELECT * FROM information_schema.tables \
 SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'` 
 
 Conditional errors
