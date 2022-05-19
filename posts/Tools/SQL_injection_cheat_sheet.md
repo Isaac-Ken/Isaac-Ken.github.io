@@ -35,14 +35,16 @@ Comments
 
 You can use comments to truncate a query and remove the portion of the original query that follows your input.
 
-| Oracle | `--comment\
-` |
-| Microsoft | `--comment\
-/*comment*/` |
-| PostgreSQL | `--comment\
-/*comment*/` |
-| MySQL | `#comment`\
+Oracle  `--comment\`
+
+Microsoft  `--comment\
+/*comment*/` 
+
+PostgreSQL  `--comment\
+/*comment*/` 
+
+MySQL  `#comment`\
 `-- comment` \
-`/*comment*/` |
+`/*comment*/` 
 
 
