@@ -12,4 +12,4 @@ You can concatenate together multiple strings to make a single string.
 | Microsoft | `'foo'+'bar'` |
 | PostgreSQL | `'foo'||'bar'` |
 | MySQL | `'foo' 'bar'` 
-`CONCAT('foo','bar')` |
+        `CONCAT('foo','bar')` |
