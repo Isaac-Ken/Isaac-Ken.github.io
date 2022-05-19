@@ -2,14 +2,21 @@
 [PORTSWIGGER SQL injection cheat sheet] https://portswigger.net/web-security/sql-injection/cheat-sheet
 
 This SQL injection cheat sheet contains examples of useful syntax that you can use to perform a variety of tasks that often arise when performing SQL injection attacks.
-String concatenation
+
+**String concatenation**
 
 You can concatenate together multiple strings to make a single string.
+---
 Oracle 	'foo'||'bar'
+-
 Microsoft 	'foo'+'bar'
+-
 PostgreSQL 	'foo'||'bar'
+-
 MySQL 	'foo' 'bar' [Note the space between the two strings]
+-
 CONCAT('foo','bar')
+-
 Substring
 
 You can extract part of a string, from a specified offset with a specified length. Note that the offset index is 1-based. Each of the following expressions will return the string ba.
