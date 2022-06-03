@@ -1,4 +1,3 @@
-*Blue*
 
 ![Blue](https://user-images.githubusercontent.com/66635295/171770325-b049fad5-f2ec-4c7b-8f55-b810338df409.png)
 
