@@ -17,9 +17,8 @@ title: Home
 ## [/VulnHub](https://isaac-ken.github.io/posts/VulnHub/)     
 
 
-## **HackTheBox_Writeups:**
+## [/HackTheBox](https://isaac-ken.github.io/posts/hackthebox/) 
 
-COMING SOON!!
 
 ## **PortSwigger_Labs:**  
 
