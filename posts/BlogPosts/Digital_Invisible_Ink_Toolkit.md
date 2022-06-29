@@ -1,4 +1,4 @@
-**Steganography with Digital Invisible Ink Toolkit (DIIRT)**
+**Steganography with Digital Invisible Ink Toolkit (DIIT)**
 ---
 **Anlyzing photos for stegonogrpahy**  
 I have modified the photo below using [Digital Invisible Ink Toolkit](http://diit.sourceforge.net/)  
