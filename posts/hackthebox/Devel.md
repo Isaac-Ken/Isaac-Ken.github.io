@@ -74,4 +74,5 @@ Creates a new session with SYSTEM privileges
 **Root shell**
 <pre>shell</pre>
 ![shellll](https://user-images.githubusercontent.com/66635295/176754848-78819fce-4e69-40b0-9bb1-0dd217271dd8.png)
+Flags for user and root on desktop
 ![flags](https://user-images.githubusercontent.com/66635295/176754936-eedc3dbf-0a4a-4f8a-8e92-c9c973ec486d.png)
