@@ -4,7 +4,7 @@
 **RECON**
 ---
 **Nmap Scan**
-<pre>namp –p- -A -T4 10.10.10.40</pre>
+<pre>nmap –p- -A -T4 10.10.10.40</pre>
 
 -allports -version -Aggressive
 
