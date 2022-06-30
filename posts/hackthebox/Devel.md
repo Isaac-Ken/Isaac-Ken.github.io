@@ -60,6 +60,7 @@ Accessing the webpage provides a session to the application server
 ![sugg](https://user-images.githubusercontent.com/66635295/176753936-0f153344-9e85-4c34-a1d5-0e5b7cf8a6f9.png)
 
 **Exploit list**
+
 13 possible exploits found
 ![exploit](https://user-images.githubusercontent.com/66635295/176754492-af9345d4-e291-4828-aba1-9ff9cbf18696.png)
 
