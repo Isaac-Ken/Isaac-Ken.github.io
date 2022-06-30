@@ -9,6 +9,7 @@
 **Nmap Scan**
 <pre>nmap –p- -A -T4 10.10.10.5</pre>
 -allports -version -Aggressive
+
 Port 21 allows for anonymous FTP Login
 
 ![nmap](https://user-images.githubusercontent.com/66635295/176748164-8d9bc8c3-02b3-4001-9ead-c9a2e7b90d0e.png)
