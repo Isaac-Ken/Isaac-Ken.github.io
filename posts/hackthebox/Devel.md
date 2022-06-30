@@ -69,6 +69,7 @@ Exploit
 Creates a new session with SYSTEM privileges
 ![shelld](https://user-images.githubusercontent.com/66635295/176754686-000b763f-7ae4-43ab-8bcd-01692a5a11cc.png)
 ![swag](https://user-images.githubusercontent.com/66635295/176754750-d8f63b76-aed9-4088-b88e-ea164f55d797.png)
+
 **Root shell**
 <pre>shell</pre>
 ![shellll](https://user-images.githubusercontent.com/66635295/176754848-78819fce-4e69-40b0-9bb1-0dd217271dd8.png)
