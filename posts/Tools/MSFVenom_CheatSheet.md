@@ -1,4 +1,5 @@
 source: https://book.hacktricks.xyz/generic-methodologies-and-resources/shells/msfvenom#listing
+
 **MSFVenom - CheatSheet**
 <pre> msfvenom -p <PAYLOAD> -e <ENCODER> -f <FORMAT> -i <ENCODE COUNT> LHOST=<IP> </pre>
 One can also use the -a to specify the architecture or the --platform
