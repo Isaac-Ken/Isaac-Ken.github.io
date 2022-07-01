@@ -3,7 +3,6 @@ layout: default
 title: Tools
 ---
 <pre> root@blog:~# cd /Tools </pre>  
-## **Tools**
 
 **Cheat sheets**
 ---
