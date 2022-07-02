@@ -1,4 +1,4 @@
-_source: [https://book.hacktricks.xyz/generic-methodologies-and-resources/shells/msfvenom#listing]_
+_source: (https://book.hacktricks.xyz/generic-methodologies-and-resources/shells/msfvenom#listing)_
 
 **MSFVenom - CheatSheet**
 <pre>msfvenom -p (PAYLOAD) -e (ENCODER) -f (FORMAT) -i (ENCODE COUNT) LHOST=(IP) </pre>
