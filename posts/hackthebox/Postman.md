@@ -30,8 +30,8 @@ Navigating to the proper page reveals Webmin login
 
 **Directory Check**
 <pre>CONFIG GET dir</pre>
-<pre> CONFIG SET dir /var/lib/redis/.ssh![redis-h]
-(https://user-images.githubusercontent.com/66635295/178054227-24f483cd-851e-4e7d-9feb-120da1f1ff95.png)
+<pre> CONFIG SET dir /var/lib/redis/.ssh</pre>
+![redis-h](https://user-images.githubusercontent.com/66635295/178054227-24f483cd-851e-4e7d-9feb-120da1f1ff95.png)
 
 
 **Generate ssh key**
