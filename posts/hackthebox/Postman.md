@@ -60,7 +60,7 @@ Set database
 
 
 SSH into the host
-<pre> ssh - id_rsa redis@10.10.10.160
+<pre> ssh - id_rsa redis@10.10.10.160 </pre>
 
 **Checking  Directorys**
 authorized_keys directory is here 
@@ -74,7 +74,7 @@ User Matt has read permison for user flag
 ![matt](https://user-images.githubusercontent.com/66635295/178060409-6bc981cb-aca1-4f61-a78d-4dda178c30a0.png)
 
 Opt Directory
-<pre> cat id_rsa.bak
+<pre> cat id_rsa.bak </pre>
 Reveals Private RSA KEY 
 
 
@@ -86,7 +86,7 @@ Copy paste the key and transfer it to .john
 ![sshtojohn](https://user-images.githubusercontent.com/66635295/178073942-d24e2b6a-b6c2-4652-8406-c8b7cb4242b2.png)
 
 Cracked Password 
-<pre> john postman_id_rsa.johm --wordlist=/usr/share/wordlists/rockyou.txt
+<pre> john postman_id_rsa.johm --wordlist=/usr/share/wordlists/rockyou.txt </pre>
 Jonhn and rockyou.txt reveals password to be computer2008
 ![cracked](https://user-images.githubusercontent.com/66635295/178074216-551f939e-0907-4646-9070-fcedf0739f41.png)
 
