@@ -19,5 +19,11 @@ Wepbpage shows an error, link does not work
 Navigating to the proper page reveals Webmin login 
 ![webmin](https://user-images.githubusercontent.com/66635295/177882796-f0ff7900-9296-4471-b394-01b121af3ef9.png)
 
-**Redis**
+**Redis Install**
+<pre> sudo apt-get install redis-tools </pre>
 ![redis install](https://user-images.githubusercontent.com/66635295/177883042-2adb0cbf-6e2c-44bc-a428-e99c52c57325.png)
+
+**Redis Host**
+<pre>redis-cli -h 
+
+![redis-h](https://user-images.githubusercontent.com/66635295/178047298-847ee0b2-b196-4674-ab2e-499e5b6a23fc.png)
