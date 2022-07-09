@@ -71,6 +71,7 @@ Home directory
 <pre>cd Matt</pre>
 <pre>ls -l</pre>
 User Matt has read permison for user flag
+
 ![matt](https://user-images.githubusercontent.com/66635295/178060409-6bc981cb-aca1-4f61-a78d-4dda178c30a0.png)
 
 Opt Directory
@@ -88,12 +89,13 @@ Copy paste the key and transfer it to .john
 Cracked Password 
 <pre> john postman_id_rsa.johm --wordlist=/usr/share/wordlists/rockyou.txt </pre>
 Jonhn and rockyou.txt reveals password to be computer2008
+
 ![cracked](https://user-images.githubusercontent.com/66635295/178074216-551f939e-0907-4646-9070-fcedf0739f41.png)
 
 **SSH Matt**
 <pre>ssh Matt@10.10.10.160</pre>
-
 Matt is denied permission
+
 ![fail matt](https://user-images.githubusercontent.com/66635295/178074458-e94015eb-af59-4635-88ca-d72305f099ae.png)
 
 Checking SSH 
