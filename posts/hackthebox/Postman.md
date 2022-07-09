@@ -63,7 +63,9 @@ SSH into the host
 <pre> ssh - id_rsa redis@10.10.10.160 </pre>
 
 **Checking  Directorys**
+
 authorized_keys directory is here 
+
 ![directory](https://user-images.githubusercontent.com/66635295/178059417-c9d01199-9069-4e64-9c48-840fba1f2d65.png)
 
 Home directory 
@@ -104,6 +106,7 @@ Checking SSH
 ![sshconfig](https://user-images.githubusercontent.com/66635295/178074642-1a9db243-8f0e-4b36-b167-20d7103f491f.png)
 
 reading sshd_config Shows Matt is a denied login 
+
 ![denny](https://user-images.githubusercontent.com/66635295/178074725-c7d3d884-8855-4f91-aab4-b122591dbe00.png)
 
 Postmatt
@@ -112,5 +115,6 @@ Postmatt
 ![postmatt](https://user-images.githubusercontent.com/66635295/178075034-35d1fd9d-d29c-4def-846f-df32e4c3d510.png)
 
 Flag is now accessible 
+
 ![user flag](https://user-images.githubusercontent.com/66635295/178075070-f098c396-939f-4315-8073-d0e6d0a53312.png)
 
