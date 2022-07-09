@@ -105,7 +105,7 @@ Checking SSH
 <pre>ls</pre>
 ![sshconfig](https://user-images.githubusercontent.com/66635295/178074642-1a9db243-8f0e-4b36-b167-20d7103f491f.png)
 
-reading sshd_config Shows Matt is a denied login 
+reading sshd_config shows Matt is a denied login 
 
 ![denny](https://user-images.githubusercontent.com/66635295/178074725-c7d3d884-8855-4f91-aab4-b122591dbe00.png)
 
