@@ -14,7 +14,7 @@ Port 6379 Redis and Port 1000 Webpage
 
 **Webpage check**
 
-Wepbpage shows an error, link does not work 
+Wepbpage shows an error, and the link does not work 
 ![10000](https://user-images.githubusercontent.com/66635295/177882646-5ebf6232-adf3-4e15-8cdd-b284ba8791f7.png)
 
 Navigating to the proper page reveals Webmin login 
