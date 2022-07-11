@@ -84,6 +84,7 @@ Reveals Private RSA KEY
 **PRIVILEGE ESCALATION**
 ---
 **John the Ripper**
+
 Copy paste the key and transfer it to .john
 <pre> /usr/share/john/ssh2john.py postman_id_rsa_enc > postman_id_rsa.john </pre>
 ![sshtojohn](https://user-images.githubusercontent.com/66635295/178073942-d24e2b6a-b6c2-4652-8406-c8b7cb4242b2.png)
