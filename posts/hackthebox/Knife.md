@@ -112,9 +112,11 @@ Running Chef
 ![knifed](https://user-images.githubusercontent.com/66635295/186065540-3f505176-f118-49b4-b23f-e461aec19820.png)
 
 **Knife Command**
+
 ![exec](https://user-images.githubusercontent.com/66635295/186065724-2e9d462d-181f-40e3-b798-a5888fcb03a7.png)
 
 **GTFO Bins**
+
 Bypasses Security
 
 ![gtfobin](https://user-images.githubusercontent.com/66635295/186065991-953c6e8f-de9d-4b65-b7f2-c466c48318a8.png)
