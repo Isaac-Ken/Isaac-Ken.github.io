@@ -17,7 +17,7 @@ Anonymous FTP login allowed
 
 **ENUMURATION**
 ---
-***FTP**
+**FTP**
 
 <pre>ftp 10.10.10.152</pre>
 
