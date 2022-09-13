@@ -36,7 +36,8 @@ Anonymous FTP login allowed
 **Privilege Escalation**
 ---
   
-  
+![prtg](https://user-images.githubusercontent.com/66635295/189782263-e5bb9bee-6c29-4abc-aa49-794107ad7f82.png)
+
 
 **Root Escalation**
 ---  
