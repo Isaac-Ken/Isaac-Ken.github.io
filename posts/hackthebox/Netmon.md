@@ -39,7 +39,20 @@ Anonymous FTP login allowed
 ![prtg](https://user-images.githubusercontent.com/66635295/189782263-e5bb9bee-6c29-4abc-aa49-794107ad7f82.png)
 
 
-**Root Escalation**
----  
+![loginu](https://user-images.githubusercontent.com/66635295/189796463-7db0c558-9173-41a0-b85b-f05af5839faa.png)
+
+
+
+![welcome](https://user-images.githubusercontent.com/66635295/189796496-5bf4bcf9-d5ea-4d81-968b-c0a2979af4ed.png)
+
+
+![cve](https://user-images.githubusercontent.com/66635295/189796533-62636b8d-14bf-4f00-ae0c-54a9c8ad44dd.png)
+
+
+
+![walkthrough](https://user-images.githubusercontent.com/66635295/189796555-343d76fc-fa0a-4c9d-9d79-718c2a5df6bf.png)
+
+
+
 **Root Flag**  
  
