@@ -46,6 +46,7 @@ Anonymous FTP login allowed
 ![welcome](https://user-images.githubusercontent.com/66635295/189796496-5bf4bcf9-d5ea-4d81-968b-c0a2979af4ed.png)
 
 
+**Root Flag** 
 ![cve](https://user-images.githubusercontent.com/66635295/189796533-62636b8d-14bf-4f00-ae0c-54a9c8ad44dd.png)
 
 
@@ -54,5 +55,18 @@ Anonymous FTP login allowed
 
 
 
-**Root Flag**  
+ ![add noti](https://user-images.githubusercontent.com/66635295/194221916-c1bbf595-481b-4dba-a2b3-cd24447de267.png)
+ 
+ 
+ ![copyitem](https://user-images.githubusercontent.com/66635295/194221942-42df0ec0-b6f1-4494-a742-ccd6d6bd0ddc.png)
+ 
+ 
+ 
+![e x](https://user-images.githubusercontent.com/66635295/194221962-3ddbb65a-e261-462b-ac27-6e69135a1a9d.png)
+
+
+![root](https://user-images.githubusercontent.com/66635295/194221976-86fbc050-579f-4c64-bd4b-2bde7bc649d5.png)
+
+
+
  
