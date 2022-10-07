@@ -75,6 +75,7 @@ Formating transfer
 ![e x](https://user-images.githubusercontent.com/66635295/194221962-3ddbb65a-e261-462b-ac27-6e69135a1a9d.png)
 
 Anonymous FTP succesfull transfer 
+
 ![root](https://user-images.githubusercontent.com/66635295/194221976-86fbc050-579f-4c64-bd4b-2bde7bc649d5.png)
 
 
