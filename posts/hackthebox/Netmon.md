@@ -23,7 +23,8 @@ Anonymous FTP login allowed
 
 ![ftp](https://user-images.githubusercontent.com/66635295/186773102-ae133107-e0b4-4246-a72d-2a29a57f3841.png)
 
-**User Flag**      
+**User Flag**
+---
 
 <pre>ls</pre>
 
@@ -50,6 +51,7 @@ Log into Netmon using 2019 for updated crenditals (box release year)
 
 
 **Root Flag** 
+---
 
 Looking for PRTG Network Monitor vulnearbilies 
 
