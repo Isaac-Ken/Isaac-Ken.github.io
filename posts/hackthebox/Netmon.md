@@ -72,6 +72,7 @@ Add Notification: Setup > Account Settings > Notifications
  ![copyitem](https://user-images.githubusercontent.com/66635295/194221942-42df0ec0-b6f1-4494-a742-ccd6d6bd0ddc.png)
  
 Formating transfer
+<pre>test.txt;Copy-Item "C:\Users\Administrator\Desktop\root.txt" -Destination "C:\Users\Public\root.txt"</pre>
 ![e x](https://user-images.githubusercontent.com/66635295/194221962-3ddbb65a-e261-462b-ac27-6e69135a1a9d.png)
 
 Anonymous FTP succesfull transfer 
