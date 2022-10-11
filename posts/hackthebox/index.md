@@ -2,7 +2,7 @@
 
 ## **HTB_Writeups:**  
 
-- **2022-10-10:** [Netmon](https://isaac-ken.github.io/posts/hackthebox/Netmon.html) `FTP,` `PRTG,` `Powershell`
+- **2022-10-8:** [Netmon](https://isaac-ken.github.io/posts/hackthebox/Netmon.html) `FTP,` `PRTG,` `Powershell`
 
 - **2022-08-22:** [Knife](https://isaac-ken.github.io/posts/hackthebox/Knife.html) `PHP,` `Burp Suite,` `TTY Shell,` `Chef`
 
